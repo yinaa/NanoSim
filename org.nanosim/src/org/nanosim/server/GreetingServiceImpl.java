@@ -1,8 +1,8 @@
 package org.nanosim.server;
 
 import org.nanosim.client.GreetingService;
-import org.nanosim.dao.Greeting;
-import org.nanosim.dto.PMFactory;
+import org.nanosim.dao.PMFactory;
+import org.nanosim.dto.Greeting;
 import com.google.gwt.user.server.rpc.RemoteServiceServlet;
 import java.util.Date;
 import javax.jdo.PersistenceManager;
