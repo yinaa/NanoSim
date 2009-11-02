@@ -10,13 +10,13 @@ import com.google.gwt.user.client.ui.VerticalPanel;
  */
 public class Patents extends Composite {
 
-  public Patents() {
-    SimplePanel panel = new SimplePanel();
-    VerticalPanel list = new VerticalPanel();
-    panel.setWidget(list);
-    list.add(new CheckBox("TODO toolbox"));
-    initWidget(panel);
-    setStyleName("nanosim-Research");
-  }
+	public Patents() {
+		SimplePanel panel = new SimplePanel();
+		VerticalPanel list = new VerticalPanel();
+		panel.setWidget(list);
+		list.add(new CheckBox("TODO toolbox"));
+		initWidget(panel);
+		setStyleName("nanosim-Research");
+	}
 
 }

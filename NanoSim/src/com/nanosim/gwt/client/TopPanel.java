@@ -31,7 +31,7 @@ public class TopPanel extends Composite implements ClickHandler {
 		inner.setHorizontalAlignment(HorizontalPanel.ALIGN_RIGHT);
 
 		//outer.setHeight("150");
-		
+
 		HorizontalPanel links = new HorizontalPanel();
 		links.setSpacing(4);
 		links.add(signOutLink);
@@ -43,7 +43,8 @@ public class TopPanel extends Composite implements ClickHandler {
 		outer.setCellHeight(logo, "60");
 
 		outer.add(inner);
-		inner.add(new HTML("<b>Welcome to NanoSim, your user name will be here soon</b>"));
+		inner.add(new HTML(
+				"<b>Welcome to NanoSim, your user name will be here soon</b>"));
 		inner.add(links);
 
 		signOutLink.addClickHandler(this);

@@ -12,66 +12,66 @@ import com.google.gwt.user.client.ui.TreeItem;
  */
 public class Mailboxes extends Composite {
 
-  /**
-   * Specifies the images that will be bundled for this Composite and specify
-   * that tree's images should also be included in the same bundle.
-   */
-  public interface Images extends ImageBundle, TreeImages {
-    AbstractImagePrototype drafts();
+	/**
+	 * Specifies the images that will be bundled for this Composite and specify
+	 * that tree's images should also be included in the same bundle.
+	 */
+	public interface Images extends ImageBundle, TreeImages {
+		AbstractImagePrototype drafts();
 
-    AbstractImagePrototype home();
+		AbstractImagePrototype home();
 
-    AbstractImagePrototype inbox();
+		AbstractImagePrototype inbox();
 
-    AbstractImagePrototype sent();
-    
-    @Resource("noimage.png")
-    AbstractImagePrototype treeLeaf();
-  }
+		AbstractImagePrototype sent();
 
-  private Tree tree;
+		@Resource("noimage.png")
+		AbstractImagePrototype treeLeaf();
+	}
 
-  /**
-   * Constructs a new mailboxes widget with a bundle of images.
-   * 
-   * @param images a bundle that provides the images for this widget
-   */
-  public Mailboxes(Images images) {
-    tree = new Tree(images);
-    TreeItem root = new TreeItem(
-        imageItemHTML(images.home(), "user@nanosim.com"));
-    tree.addItem(root);
+	private Tree tree;
 
-    addImageItem(root, "Inbox", images.inbox());
-    addImageItem(root, "Drafts", images.drafts());
-    addImageItem(root, "Sent", images.sent());
+	/**
+	 * Constructs a new mailboxes widget with a bundle of images.
+	 * 
+	 * @param images a bundle that provides the images for this widget
+	 */
+	public Mailboxes(Images images) {
+		tree = new Tree(images);
+		TreeItem root = new TreeItem(imageItemHTML(images.home(),
+				"user@nanosim.com"));
+		tree.addItem(root);
 
-    root.setState(true);
-    initWidget(tree);
-  }
+		addImageItem(root, "Inbox", images.inbox());
+		addImageItem(root, "Drafts", images.drafts());
+		addImageItem(root, "Sent", images.sent());
 
-  /**
-   * A helper method to simplify adding tree items that have attached images.
-   * {@link #addImageItem(TreeItem, String, AbstractImagePrototype) code}
-   * 
-   * @param root the tree item to which the new item will be added.
-   * @param title the text associated with this item.
-   */
-  private TreeItem addImageItem(TreeItem root, String title,
-      AbstractImagePrototype imageProto) {
-    TreeItem item = new TreeItem(imageItemHTML(imageProto, title));
-    root.addItem(item);
-    return item;
-  }
+		root.setState(true);
+		initWidget(tree);
+	}
 
-  /**
-   * Generates HTML for a tree item with an attached icon.
-   * 
-   * @param imageProto the image prototype to use
-   * @param title the title of the item
-   * @return the resultant HTML
-   */
-  private String imageItemHTML(AbstractImagePrototype imageProto, String title) {
-    return imageProto.getHTML() + " " + title;
-  }
+	/**
+	 * A helper method to simplify adding tree items that have attached images.
+	 * {@link #addImageItem(TreeItem, String, AbstractImagePrototype) code}
+	 * 
+	 * @param root the tree item to which the new item will be added.
+	 * @param title the text associated with this item.
+	 */
+	private TreeItem addImageItem(TreeItem root, String title,
+			AbstractImagePrototype imageProto) {
+		TreeItem item = new TreeItem(imageItemHTML(imageProto, title));
+		root.addItem(item);
+		return item;
+	}
+
+	/**
+	 * Generates HTML for a tree item with an attached icon.
+	 * 
+	 * @param imageProto the image prototype to use
+	 * @param title the title of the item
+	 * @return the resultant HTML
+	 */
+	private String imageItemHTML(AbstractImagePrototype imageProto, String title) {
+		return imageProto.getHTML() + " " + title;
+	}
 }

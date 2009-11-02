@@ -1,7 +1,7 @@
-package com.nanosim.gwt.server;
+package com.mona.server;
 
+import com.mona.client.GreetingService;
 import com.google.gwt.user.server.rpc.RemoteServiceServlet;
-import com.nanosim.gwt.client.GreetingService;
 
 /**
  * The server side implementation of the RPC service.
