@@ -28,7 +28,7 @@ public class SendFund extends Composite{
 		setStyleName("nanosim-Research");
 	}
 	
-	public void insertDatabase(Double credit){
+/*	public void insertDatabase(Double credit){
 		 String url = "jdbc:mysql://localhost:3306/nanosim";
 		 //System.out.println(com.mysql.jdbc.Driver.HOST_NAME_INDEX);
 		    try {
@@ -59,5 +59,5 @@ public class SendFund extends Composite{
 		    	System.out.println("Error: "+e.toString());
 		    }
 	}
-	
+	*/
 }
