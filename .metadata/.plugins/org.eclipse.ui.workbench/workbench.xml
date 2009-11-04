@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workbench progressCount="53" version="2.0">
+<workbenchAdvisor/>
+<window height="768" maximized="true" width="1024" x="115" y="2">
+<fastViewData fastViewLocation="1024"/>
+<perspectiveBar>
+<itemSize x="160"/>
+</perspectiveBar>
+<coolbarLayout locked="0">
+<coolItem id="group.file" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="99" y="22"/>
+<coolItem id="additions" itemType="typeGroupMarker"/>
+<coolItem id="com.google.gdt.eclipse.suite.actionSet" itemType="typeToolBarContribution" x="84" y="22"/>
+<coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="129" y="22"/>
+<coolItem id="org.eclipse.jst.j2ee.J2eeMainActionSet" itemType="typeToolBarContribution" x="91" y="22"/>
+<coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="99" y="22"/>
+<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="61" y="22"/>
+<coolItem id="org.eclipse.wst.server.ui.internal.webbrowser.actionSet" itemType="typeToolBarContribution" x="38" y="22"/>
+<coolItem id="org.eclipse.wst.ws.explorer.explorer" itemType="typeToolBarContribution" x="38" y="22"/>
+<coolItem id="org.eclipse.wst.xml.ui.perspective.NewFileToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.wst.xml.ui.design.DesignToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="group.nav" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="190" y="22"/>
+<coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="com.google.gwt.eclipse.core.editors.gwtJavaEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="group.help" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
+</coolbarLayout>
+<page focus="true" label="Workspace - Java EE">
+<editors>
+<editorArea activeWorkbook="DefaultEditorWorkbook">
+<info part="DefaultEditorWorkbook">
+<folder appearance="1" expanded="2">
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+<part id="4"/>
+<part id="5"/>
+<part id="6"/>
+<part id="7"/>
+<part id="8"/>
+<part id="9"/>
+<part id="10"/>
+<part id="11"/>
+<part id="12"/>
+<part id="13"/>
+</presentation>
+</folder>
+</info>
+</editorArea>
+<editor id="com.google.gwt.eclipse.core.editors.gwtJavaEditor" name="SendFund.java" partName="SendFund.java" path="C:/Users/Yina/Documents/Projects/NanoSimSE/NanoSim/src/com/nanosim/gwt/client/SendFund.java" title="SendFund.java" tooltip="NanoSim/src/com/nanosim/gwt/client/SendFund.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/NanoSim/src/com/nanosim/gwt/client/SendFund.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="692" selectionTopPixel="0"/>
+</editor>
+<editor id="com.google.gwt.eclipse.core.editors.gwtJavaEditor" name="GreetingService.java" partName="GreetingService.java" path="C:/Users/Yina/Documents/Projects/NanoSimSE/NanoSim/src/com/nanosim/gwt/client/GreetingService.java" title="GreetingService.java" tooltip="NanoSim/src/com/nanosim/gwt/client/GreetingService.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/NanoSim/src/com/nanosim/gwt/client/GreetingService.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="35" selectionTopPixel="0"/>
+</editor>
+<editor id="com.google.gwt.eclipse.core.editors.gwtJavaEditor" name="GreetingServiceAsync.java" partName="GreetingServiceAsync.java" path="C:/Users/Yina/Documents/Projects/NanoSimSE/NanoSim/src/com/nanosim/gwt/client/GreetingServiceAsync.java" title="GreetingServiceAsync.java" tooltip="NanoSim/src/com/nanosim/gwt/client/GreetingServiceAsync.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/NanoSim/src/com/nanosim/gwt/client/GreetingServiceAsync.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="com.google.gwt.eclipse.core.editors.gwtJavaEditor" name="GreetingServiceImpl.java" partName="GreetingServiceImpl.java" path="C:/Users/Yina/Documents/Projects/NanoSimSE/NanoSim/src/com/nanosim/gwt/server/GreetingServiceImpl.java" title="GreetingServiceImpl.java" tooltip="NanoSim/src/com/nanosim/gwt/server/GreetingServiceImpl.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/NanoSim/src/com/nanosim/gwt/server/GreetingServiceImpl.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="651" selectionTopPixel="0"/>
+</editor>
+<editor id="com.google.gwt.eclipse.core.editors.gwtJavaEditor" name="NanoSim.java" partName="NanoSim.java" path="C:/Users/Yina/Documents/Projects/NanoSimSE/NanoSim/src/com/nanosim/gwt/client/NanoSim.java" title="NanoSim.java" tooltip="NanoSim/src/com/nanosim/gwt/client/NanoSim.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/NanoSim/src/com/nanosim/gwt/client/NanoSim.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2317" selectionTopPixel="0"/>
+</editor>
+<editor id="com.google.gwt.eclipse.core.editors.gwtJavaEditor" name="Contacts.java" partName="Contacts.java" path="C:/Users/Yina/Documents/Projects/NanoSimSE/NanoSim/src/com/nanosim/gwt/client/Contacts.java" title="Contacts.java" tooltip="NanoSim/src/com/nanosim/gwt/client/Contacts.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/NanoSim/src/com/nanosim/gwt/client/Contacts.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="798" selectionTopPixel="0"/>
+</editor>
+<editor id="com.google.gwt.eclipse.core.editors.gwtJavaEditor" name="Mailboxes.java" partName="Mailboxes.java" path="C:/Users/Yina/Documents/Projects/NanoSimSE/NanoSim/src/com/nanosim/gwt/client/Mailboxes.java" title="Mailboxes.java" tooltip="NanoSim/src/com/nanosim/gwt/client/Mailboxes.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/NanoSim/src/com/nanosim/gwt/client/Mailboxes.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1671" selectionTopPixel="671"/>
+</editor>
+<editor id="com.google.gwt.eclipse.core.editors.gwtJavaEditor" name="MailItems.java" partName="MailItems.java" path="C:/Users/Yina/Documents/Projects/NanoSimSE/NanoSim/src/com/nanosim/gwt/client/MailItems.java" title="MailItems.java" tooltip="NanoSim/src/com/nanosim/gwt/client/MailItems.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/NanoSim/src/com/nanosim/gwt/client/MailItems.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="7436" selectionTopPixel="2201"/>
+</editor>
+<editor id="com.google.gwt.eclipse.core.editors.gwtJavaEditor" name="MailList.java" partName="MailList.java" path="C:/Users/Yina/Documents/Projects/NanoSimSE/NanoSim/src/com/nanosim/gwt/client/MailList.java" title="MailList.java" tooltip="NanoSim/src/com/nanosim/gwt/client/MailList.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/NanoSim/src/com/nanosim/gwt/client/MailList.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="3522" selectionTopPixel="1420"/>
+</editor>
+<editor id="com.google.gwt.eclipse.core.editors.gwtJavaEditor" name="LeftPanel.java" partName="LeftPanel.java" path="C:/Users/Yina/Documents/Projects/NanoSimSE/NanoSim/src/com/nanosim/gwt/client/LeftPanel.java" title="LeftPanel.java" tooltip="NanoSim/src/com/nanosim/gwt/client/LeftPanel.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/NanoSim/src/com/nanosim/gwt/client/LeftPanel.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1321" selectionTopPixel="259"/>
+</editor>
+<editor id="com.google.gwt.eclipse.core.editors.gwtJavaEditor" name="Mail.java" partName="Mail.java" path="C:/Users/Yina/Documents/Projects/NanoSimSE/NanoSim/src/com/nanosim/model/Mail.java" title="Mail.java" tooltip="NanoSim/src/com/nanosim/model/Mail.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/NanoSim/src/com/nanosim/model/Mail.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="653" selectionTopPixel="272"/>
+</editor>
+<editor id="com.google.gwt.eclipse.core.editors.gwtJavaEditor" name="RightPanel.java" partName="RightPanel.java" path="C:/Users/Yina/Documents/Projects/NanoSimSE/NanoSim/src/com/nanosim/gwt/client/RightPanel.java" title="RightPanel.java" tooltip="NanoSim/src/com/nanosim/gwt/client/RightPanel.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/NanoSim/src/com/nanosim/gwt/client/RightPanel.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="442" selectionTopPixel="0"/>
+</editor>
+<editor id="com.google.gwt.eclipse.core.editors.gwtJavaEditor" name="TopPanel.java" partName="TopPanel.java" path="C:/Users/Yina/Documents/Projects/NanoSimSE/NanoSim/src/com/nanosim/gwt/client/TopPanel.java" title="TopPanel.java" tooltip="NanoSim/src/com/nanosim/gwt/client/TopPanel.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/NanoSim/src/com/nanosim/gwt/client/TopPanel.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1226" selectionTopPixel="215"/>
+</editor>
+<editor activePart="true" focus="true" id="com.google.gwt.eclipse.core.editors.gwtJavaEditor" name="MailDetail.java" partName="MailDetail.java" path="C:/Users/Yina/Documents/Projects/NanoSimSE/NanoSim/src/com/nanosim/gwt/client/MailDetail.java" title="MailDetail.java" tooltip="NanoSim/src/com/nanosim/gwt/client/MailDetail.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/NanoSim/src/com/nanosim/gwt/client/MailDetail.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1203" selectionTopPixel="348"/>
+</editor>
+</editors>
+<views>
+<view id="org.eclipse.ui.navigator.ProjectExplorer" partName="Project Explorer">
+<viewState CommonNavigator.LINKING_ENABLED="0" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0"/>
+</view>
+<view id="org.eclipse.ui.views.AllMarkersView" partName="Markers">
+<viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.allSeverityField" categoryGroup="org.eclipse.ui.ide.type" markerContentGenerator="org.eclipse.ui.ide.allMarkersGenerator" partName="Markers">
+<columnWidths org.eclipse.ui.ide.allSeverityField="300" org.eclipse.ui.ide.locationField="64" org.eclipse.ui.ide.markerType="94" org.eclipse.ui.ide.pathField="124" org.eclipse.ui.ide.resourceField="94"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.allSeverityField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.pathField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.locationField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.markerType"/>
+</viewState>
+</view>
+<view id="org.eclipse.wst.common.snippets.internal.ui.SnippetsView" partName="Snippets"/>
+<view id="org.eclipse.ui.views.PropertySheet" partName="Properties"/>
+<view id="org.eclipse.datatools.connectivity.DataSourceExplorerNavigator" partName="Data Source Explorer"/>
+<view id="org.eclipse.ui.console.ConsoleView" partName="Console">
+<viewState/>
+</view>
+<view id="org.eclipse.mylyn.tasks.ui.views.tasks" partName="Task List"/>
+<view id="org.eclipse.ui.views.ContentOutline" partName="Outline">
+<viewState/>
+</view>
+<view id="org.eclipse.wst.server.ui.ServersView" partName="Servers"/>
+</views>
+<perspectives activePart="com.google.gwt.eclipse.core.editors.gwtJavaEditor" activePerspective="org.eclipse.jst.j2ee.J2EEPerspective">
+<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
+<descriptor class="org.eclipse.jst.j2ee.internal.perspective.J2EEPerspective" id="org.eclipse.jst.j2ee.J2EEPerspective" label="Java EE"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
+<alwaysOnActionSet id="org.eclipse.ui.externaltools.ExternalToolsSet"/>
+<alwaysOnActionSet id="org.eclipse.gmf.examples.runtime.common.service.client.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.gmf.examples.runtime.diagram.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.jst.servlet.ui.internal.actions.ConvertToWebModuleTypeActionSet"/>
+<alwaysOnActionSet id="org.eclipse.mylyn.context.ui.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.mylyn.doc.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.mylyn.tasks.ui.navigation"/>
+<alwaysOnActionSet id="org.eclipse.rse.core.search.searchActionSet"/>
+<alwaysOnActionSet id="com.google.gdt.eclipse.suite.actionSet.2.gae"/>
+<alwaysOnActionSet id="com.google.gdt.eclipse.suite.actionSet"/>
+<alwaysOnActionSet id="com.google.gdt.eclipse.suite.actionSet.1.gwt"/>
+<alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
+<alwaysOnActionSet id="org.eclipse.jst.j2ee.J2eeMainActionSet"/>
+<alwaysOnActionSet id="org.eclipse.jdt.ui.JavaActionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.launchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.debugActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.NavigateActionSet"/>
+<alwaysOnActionSet id="org.eclipse.wst.server.ui.internal.webbrowser.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.breakpointActionSet"/>
+<alwaysOnActionSet id="org.eclipse.wst.ws.explorer.explorer"/>
+<show_view_action id="org.eclipse.ui.navigator.ProjectExplorer"/>
+<show_view_action id="org.eclipse.wst.server.ui.ServersView"/>
+<show_view_action id="org.eclipse.datatools.connectivity.DataSourceExplorerNavigator"/>
+<show_view_action id="org.eclipse.ui.views.BookmarkView"/>
+<show_view_action id="org.eclipse.ui.views.ContentOutline"/>
+<show_view_action id="org.eclipse.ui.views.PropertySheet"/>
+<show_view_action id="org.eclipse.ui.views.ResourceNavigator"/>
+<show_view_action id="org.eclipse.wst.common.snippets.internal.ui.SnippetsView"/>
+<show_view_action id="org.eclipse.ui.views.AllMarkersView"/>
+<show_view_action id="org.eclipse.mylyn.tasks.ui.views.tasks"/>
+<show_view_action id="org.eclipse.search.ui.views.SearchView"/>
+<show_view_action id="org.eclipse.ui.console.ConsoleView"/>
+<new_wizard_action id="com.google.gdt.eclipse.suite.wizards.newProjectWizard"/>
+<new_wizard_action id="com.google.gwt.eclipse.core.newEntryPointWizard"/>
+<new_wizard_action id="com.google.gwt.eclipse.core.newHostPageWizard"/>
+<new_wizard_action id="com.google.gwt.eclipse.core.newModuleWizard"/>
+<new_wizard_action id="org.eclipse.jpt.ui.wizard.newJpaProject"/>
+<new_wizard_action id="org.eclipse.jst.j2ee.ui.project.facet.EarProjectWizard"/>
+<new_wizard_action id="org.eclipse.jst.servlet.ui.project.facet.WebProjectWizard"/>
+<new_wizard_action id="org.eclipse.jst.ejb.ui.project.facet.EjbProjectWizard"/>
+<new_wizard_action id="org.eclipse.jst.j2ee.jca.ui.internal.wizard.ConnectorProjectWizard"/>
+<new_wizard_action id="org.eclipse.jst.j2ee.ui.project.facet.appclient.AppClientProjectWizard"/>
+<new_wizard_action id="org.eclipse.wst.web.ui.internal.wizards.SimpleWebProjectWizard"/>
+<new_wizard_action id="org.eclipse.jst.servlet.ui.internal.wizard.AddServletWizard"/>
+<new_wizard_action id="org.eclipse.jst.ejb.ui.internal.wizard.AddSessionBeanWizard"/>
+<new_wizard_action id="org.eclipse.jst.ejb.ui.internal.wizard.AddMessageDrivenBeanWizard"/>
+<new_wizard_action id="org.eclipse.jpt.ui.wizard.newEntity"/>
+<new_wizard_action id="org.eclipse.jst.ws.creation.ui.wizard.serverwizard"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.folder"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.file"/>
+<perspective_action id="org.eclipse.jpt.ui.jpaPerspective"/>
+<perspective_action id="org.eclipse.debug.ui.DebugPerspective"/>
+<perspective_action id="org.eclipse.jdt.ui.JavaPerspective"/>
+<perspective_action id="org.eclipse.ui.resourcePerspective"/>
+<perspective_action id="org.eclipse.wst.web.ui.webDevPerspective"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+<view id="org.eclipse.ui.navigator.ProjectExplorer"/>
+<view id="org.eclipse.ui.views.AllMarkersView"/>
+<view id="org.eclipse.ui.views.PropertySheet"/>
+<view id="org.eclipse.wst.server.ui.ServersView"/>
+<view id="org.eclipse.datatools.connectivity.DataSourceExplorerNavigator"/>
+<view id="org.eclipse.wst.common.snippets.internal.ui.SnippetsView"/>
+<view id="org.eclipse.ui.console.ConsoleView"/>
+<view id="org.eclipse.ui.views.ContentOutline"/>
+<view id="org.eclipse.mylyn.tasks.ui.views.tasks"/>
+<fastViewBars/>
+<layout>
+<mainWindow>
+<info folder="true" part="topLeft">
+<folder activePageID="org.eclipse.ui.navigator.ProjectExplorer" appearance="2" expanded="2">
+<page content="org.eclipse.ui.navigator.ProjectExplorer" label="Project Explorer"/>
+<page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
+<page content="org.eclipse.jdt.ui.TypeHierarchy" label="LabelNotFound"/>
+<page content="org.eclipse.jdt.ui.PackagesView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@b8f952" ratio="0.75" ratioLeft="750" ratioRight="250" relationship="2" relative="topLeft">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+<page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.25" ratioLeft="250" ratioRight="750" relationship="2" relative="topLeft"/>
+<info folder="true" part="bottomRight" ratio="0.69953775" ratioLeft="454" ratioRight="195" relationship="4" relative="org.eclipse.ui.editorss">
+<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.AllMarkersView" label="Markers"/>
+<page content="org.eclipse.ui.views.PropertySheet" label="Properties"/>
+<page content="org.eclipse.wst.server.ui.ServersView" label="Servers"/>
+<page content="org.eclipse.datatools.connectivity.DataSourceExplorerNavigator" label="Data Source Explorer"/>
+<page content="org.eclipse.wst.common.snippets.internal.ui.SnippetsView" label="Snippets"/>
+<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<page content="org.eclipse.ui.views.ProblemView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.TaskList" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.ProgressView" label="LabelNotFound"/>
+<page content="org.eclipse.search.ui.views.SearchView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+<part id="4"/>
+<part id="5"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="topRight" ratio="0.7" ratioLeft="525" ratioRight="225" relationship="2" relative="org.eclipse.ui.editorss">
+<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
+<page content="org.eclipse.mylyn.tasks.ui.views.tasks" label="Task List"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+</presentation>
+</folder>
+</info>
+</mainWindow>
+</layout>
+</perspective>
+</perspectives>
+<workingSets/>
+<navigationHistory>
+<editors>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.google.gwt.eclipse.core.editors.gwtJavaEditor" path="/NanoSim/src/com/nanosim/gwt/client/NanoSim.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.google.gwt.eclipse.core.editors.gwtJavaEditor" path="/NanoSim/src/com/nanosim/gwt/client/MailList.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.google.gwt.eclipse.core.editors.gwtJavaEditor" path="/NanoSim/src/com/nanosim/gwt/client/Mailboxes.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.google.gwt.eclipse.core.editors.gwtJavaEditor" path="/NanoSim/src/com/nanosim/gwt/client/TopPanel.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.google.gwt.eclipse.core.editors.gwtJavaEditor" path="/NanoSim/src/com/nanosim/gwt/client/MailDetail.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.google.gwt.eclipse.core.editors.gwtJavaEditor" path="/NanoSim/src/com/nanosim/gwt/client/MailItem.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.google.gwt.eclipse.core.editors.gwtJavaEditor" path="/NanoSim/src/com/nanosim/gwt/client/MailItems.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.google.gwt.eclipse.core.editors.gwtJavaEditor" path="/NanoSim/src/com/nanosim/gwt/client/Contacts.java"/>
+</editors>
+<item historyLabel="Mailboxes.java" index="2">
+<position/>
+</item>
+<item historyLabel="MailDetail.java" index="4">
+<position info="not_deleted" x="878" y="0"/>
+</item>
+<item historyLabel="MailItems.java" index="6">
+<position info="not_deleted" x="62" y="0"/>
+</item>
+<item historyLabel="Mailboxes.java" index="2">
+<position/>
+</item>
+<item historyLabel="MailList.java" index="1">
+<position info="not_deleted" x="953" y="0"/>
+</item>
+<item historyLabel="TopPanel.java" index="3">
+<position info="not_deleted" x="1174" y="2"/>
+</item>
+<item historyLabel="NanoSim.java" index="0">
+<position info="not_deleted" x="3531" y="0"/>
+</item>
+<item historyLabel="NanoSim.java" index="0">
+<position info="not_deleted" x="1170" y="0"/>
+</item>
+<item historyLabel="NanoSim.java" index="0">
+<position info="not_deleted" x="1167" y="0"/>
+</item>
+<item historyLabel="Mailboxes.java" index="2">
+<position/>
+</item>
+<item historyLabel="NanoSim.java" index="0">
+<position info="not_deleted" x="1139" y="33"/>
+</item>
+<item historyLabel="Mailboxes.java" index="2">
+<position info="not_deleted" x="2086" y="0"/>
+</item>
+<item historyLabel="MailItems.java" index="6">
+<position info="not_deleted" x="62" y="0"/>
+</item>
+<item historyLabel="MailList.java" index="1">
+<position info="not_deleted" x="953" y="0"/>
+</item>
+<item historyLabel="TopPanel.java" index="3">
+<position info="not_deleted" x="1174" y="2"/>
+</item>
+<item historyLabel="MailItems.java" index="6">
+<position info="not_deleted" x="62" y="0"/>
+</item>
+<item historyLabel="Mailboxes.java" index="2">
+<position info="not_deleted" x="2086" y="0"/>
+</item>
+<item historyLabel="MailList.java" index="1">
+<position info="not_deleted" x="953" y="0"/>
+</item>
+<item historyLabel="Mailboxes.java" index="2">
+<position info="not_deleted" x="2086" y="0"/>
+</item>
+<item historyLabel="MailItem.java" index="5">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Mailboxes.java" index="2">
+<position info="not_deleted" x="2086" y="0"/>
+</item>
+<item historyLabel="TopPanel.java" index="3">
+<position info="not_deleted" x="1174" y="2"/>
+</item>
+<item historyLabel="MailList.java" index="1">
+<position info="not_deleted" x="1836" y="0"/>
+</item>
+<item historyLabel="TopPanel.java" index="3">
+<position info="not_deleted" x="1221" y="0"/>
+</item>
+<item historyLabel="NanoSim.java" index="0">
+<position info="not_deleted" x="1139" y="33"/>
+</item>
+<item historyLabel="NanoSim.java" index="0">
+<position info="not_deleted" x="1622" y="0"/>
+</item>
+<item historyLabel="TopPanel.java" index="3">
+<position info="not_deleted" x="1226" y="0"/>
+</item>
+<item historyLabel="MailList.java" index="1">
+<position info="not_deleted" x="1836" y="0"/>
+</item>
+<item historyLabel="Mailboxes.java" index="2">
+<position info="not_deleted" x="1428" y="713"/>
+</item>
+<item historyLabel="Contacts.java" index="7">
+<position/>
+</item>
+<item historyLabel="Mailboxes.java" index="2">
+<position info="not_deleted" x="1428" y="713"/>
+</item>
+<item historyLabel="Contacts.java" index="7">
+<position/>
+</item>
+<item historyLabel="Mailboxes.java" index="2">
+<position info="not_deleted" x="1253" y="19"/>
+</item>
+<item historyLabel="Contacts.java" index="7">
+<position info="not_deleted" x="2938" y="0"/>
+</item>
+<item historyLabel="Contacts.java" index="7">
+<position/>
+</item>
+<item historyLabel="Contacts.java" index="7">
+<position/>
+</item>
+<item historyLabel="Contacts.java" index="7">
+<position/>
+</item>
+<item historyLabel="Contacts.java" index="7">
+<position info="not_deleted" x="693" y="0"/>
+</item>
+<item historyLabel="Mailboxes.java" index="2">
+<position info="not_deleted" x="1671" y="0"/>
+</item>
+<item historyLabel="Contacts.java" index="7">
+<position info="not_deleted" x="693" y="0"/>
+</item>
+<item historyLabel="Contacts.java" index="7">
+<position info="not_deleted" x="2560" y="0"/>
+</item>
+<item historyLabel="NanoSim.java" index="0">
+<position info="not_deleted" x="2317" y="0"/>
+</item>
+<item historyLabel="Contacts.java" index="7">
+<position info="not_deleted" x="798" y="0"/>
+</item>
+<item historyLabel="Mailboxes.java" index="2">
+<position info="not_deleted" x="1671" y="0"/>
+</item>
+<item historyLabel="MailItems.java" index="6">
+<position info="not_deleted" x="7436" y="0"/>
+</item>
+<item historyLabel="MailList.java" index="1">
+<position info="not_deleted" x="1836" y="0"/>
+</item>
+<item historyLabel="MailList.java" index="1">
+<position info="not_deleted" x="3544" y="0"/>
+</item>
+<item historyLabel="MailList.java" index="1">
+<position info="not_deleted" x="3522" y="0"/>
+</item>
+<item historyLabel="MailItems.java" index="6">
+<position info="not_deleted" x="7436" y="0"/>
+</item>
+<item active="true" historyLabel="MailDetail.java" index="4">
+<position info="not_deleted" x="878" y="0"/>
+</item>
+</navigationHistory>
+<input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
+</page>
+<workbenchWindowAdvisor/>
+<actionBarAdvisor/>
+<trimLayout>
+<trimArea IMemento.internal.id="16384">
+<trimItem IMemento.internal.id="topLeft"/>
+</trimArea>
+<trimArea IMemento.internal.id="131072">
+<trimItem IMemento.internal.id="bottomRight"/>
+<trimItem IMemento.internal.id="topRight"/>
+</trimArea>
+<trimArea IMemento.internal.id="128">
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
+</trimArea>
+<trimArea IMemento.internal.id="1024">
+<trimItem IMemento.internal.id="org.eclise.ui.internal.FastViewBar"/>
+<trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
+<trimItem IMemento.internal.id="com.google.gdt.eclipse.suite.status.trim"/>
+</trimArea>
+</trimLayout>
+</window>
+<mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.google.gwt.eclipse.core.editors.gwtJavaEditor" name="MailItem.java" tooltip="NanoSim/src/com/nanosim/gwt/client/MailItem.java">
+<persistable path="/NanoSim/src/com/nanosim/gwt/client/MailItem.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.google.gwt.eclipse.core.editors.gwtJavaEditor" name="MailDetail.java" tooltip="NanoSim/src/com/nanosim/gwt/client/MailDetail.java">
+<persistable path="/NanoSim/src/com/nanosim/gwt/client/MailDetail.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.google.gwt.eclipse.core.editors.gwtJavaEditor" name="TopPanel.java" tooltip="NanoSim/src/com/nanosim/gwt/client/TopPanel.java">
+<persistable path="/NanoSim/src/com/nanosim/gwt/client/TopPanel.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.google.gwt.eclipse.core.editors.gwtJavaEditor" name="RightPanel.java" tooltip="NanoSim/src/com/nanosim/gwt/client/RightPanel.java">
+<persistable path="/NanoSim/src/com/nanosim/gwt/client/RightPanel.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.google.gwt.eclipse.core.editors.gwtJavaEditor" name="Mail.java" tooltip="NanoSim/src/com/nanosim/model/Mail.java">
+<persistable path="/NanoSim/src/com/nanosim/model/Mail.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.google.gwt.eclipse.core.editors.gwtJavaEditor" name="LeftPanel.java" tooltip="NanoSim/src/com/nanosim/gwt/client/LeftPanel.java">
+<persistable path="/NanoSim/src/com/nanosim/gwt/client/LeftPanel.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.google.gwt.eclipse.core.editors.gwtJavaEditor" name="MailList.java" tooltip="NanoSim/src/com/nanosim/gwt/client/MailList.java">
+<persistable path="/NanoSim/src/com/nanosim/gwt/client/MailList.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.google.gwt.eclipse.core.editors.gwtJavaEditor" name="MailItems.java" tooltip="NanoSim/src/com/nanosim/gwt/client/MailItems.java">
+<persistable path="/NanoSim/src/com/nanosim/gwt/client/MailItems.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.google.gwt.eclipse.core.editors.gwtJavaEditor" name="Mailboxes.java" tooltip="NanoSim/src/com/nanosim/gwt/client/Mailboxes.java">
+<persistable path="/NanoSim/src/com/nanosim/gwt/client/Mailboxes.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.google.gwt.eclipse.core.editors.gwtJavaEditor" name="Contacts.java" tooltip="NanoSim/src/com/nanosim/gwt/client/Contacts.java">
+<persistable path="/NanoSim/src/com/nanosim/gwt/client/Contacts.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.google.gwt.eclipse.core.editors.gwtJavaEditor" name="NanoSim.java" tooltip="NanoSim/src/com/nanosim/gwt/client/NanoSim.java">
+<persistable path="/NanoSim/src/com/nanosim/gwt/client/NanoSim.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.google.gwt.eclipse.core.editors.gwtJavaEditor" name="GreetingServiceImpl.java" tooltip="NanoSim/src/com/nanosim/gwt/server/GreetingServiceImpl.java">
+<persistable path="/NanoSim/src/com/nanosim/gwt/server/GreetingServiceImpl.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.google.gwt.eclipse.core.editors.gwtJavaEditor" name="GreetingServiceAsync.java" tooltip="NanoSim/src/com/nanosim/gwt/client/GreetingServiceAsync.java">
+<persistable path="/NanoSim/src/com/nanosim/gwt/client/GreetingServiceAsync.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.google.gwt.eclipse.core.editors.gwtJavaEditor" name="GreetingService.java" tooltip="NanoSim/src/com/nanosim/gwt/client/GreetingService.java">
+<persistable path="/NanoSim/src/com/nanosim/gwt/client/GreetingService.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.google.gwt.eclipse.core.editors.gwtJavaEditor" name="SendFund.java" tooltip="NanoSim/src/com/nanosim/gwt/client/SendFund.java">
+<persistable path="/NanoSim/src/com/nanosim/gwt/client/SendFund.java"/>
+</file>
+</mruList>
+</workbench>

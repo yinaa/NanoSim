@@ -108,7 +108,7 @@ public class MailList extends Composite implements ClickHandler {
       table.getCellFormatter().setWordWrap(i + 1, 1, false);
       table.getCellFormatter().setWordWrap(i + 1, 2, false);
       table.getFlexCellFormatter().setColSpan(i + 1, 2, 2);
-      //table.setHeight("10");
+      table.setHeight("10");
     }
   }
 
