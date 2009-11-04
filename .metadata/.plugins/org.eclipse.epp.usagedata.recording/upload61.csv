@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1257298817011
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1257298820063
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1257298869824
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1257298872180
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1257298881537
+activated,view,org.eclipse.ui.navigator.resources,3.4.1.M20090826-0800,"org.eclipse.ui.navigator.ProjectExplorer",1257298885096
+started,bundle,org.eclipse.wst.html.core,1.1.300.v200903120608,"org.eclipse.wst.html.core",1257298891688
+started,bundle,org.eclipse.ui.views.properties.tabbed,3.5.0.I20090429-1800,"org.eclipse.ui.views.properties.tabbed",1257298897704
+opened,view,org.eclipse.ui.views,3.4.1.M20090826-0800,"org.eclipse.ui.views.PropertySheet",1257298897843
+activated,view,org.eclipse.ui.views,3.4.1.M20090826-0800,"org.eclipse.ui.views.PropertySheet",1257298897887
+opened,view,org.eclipse.ui.ide,3.5.1.M20090826-0800,"org.eclipse.ui.views.AllMarkersView",1257298898249
+activated,view,org.eclipse.ui.ide,3.5.1.M20090826-0800,"org.eclipse.ui.views.AllMarkersView",1257298898269
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1257298904563
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1257298904603
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1257298904751
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1257298907130
+executed,command,org.eclipse.ui.ide,3.5.1.M20090826-0800,"org.eclipse.jdt.ui.edit.text.java.correction.assist.proposals",1257298907169
+activated,editor,com.google.gwt.eclipse.core,1.1.2.v200910131704,"com.google.gwt.eclipse.core.editors.gwtJavaEditor",1257298911742
+activated,view,org.eclipse.ui.navigator.resources,3.4.1.M20090826-0800,"org.eclipse.ui.navigator.ProjectExplorer",1257298913133
+opened,editor,com.google.gwt.eclipse.core,1.1.2.v200910131704,"com.google.gwt.eclipse.core.editors.gwtJavaEditor",1257298922209
+activated,editor,com.google.gwt.eclipse.core,1.1.2.v200910131704,"com.google.gwt.eclipse.core.editors.gwtJavaEditor",1257298922300
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1257298951412
+started,bundle,com.objectgeneration.designer,1.6.3,"com.objectgeneration.designer",1257298967803
+error,log,,,"Could not acquire children from extension: com.objectgen.designer.projectContent",1257298968104
+started,bundle,com.objectgeneration.core,1.6.5,"com.objectgeneration.core",1257298968114

@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1257298969752
+error,log,,,"Could not acquire children from extension: com.objectgen.designer.projectContent",1257298969907
+activated,view,org.eclipse.ui.navigator.resources,3.4.1.M20090826-0800,"org.eclipse.ui.navigator.ProjectExplorer",1257298972880
+activated,editor,com.google.gwt.eclipse.core,1.1.2.v200910131704,"com.google.gwt.eclipse.core.editors.gwtJavaEditor",1257298988324
+started,bundle,org.eclipse.jdt.junit,3.5.1.r351_v20090708-0800,"org.eclipse.jdt.junit",1257298993927
+started,bundle,org.eclipse.wst.server.core,1.1.102.v20090825,"org.eclipse.wst.server.core",1257298999229
+started,bundle,org.eclipse.wst.server.ui,1.1.103.v20090909,"org.eclipse.wst.server.ui",1257298999242
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1257299000300
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1257299002110
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1257299003997
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1257299016269
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1257299019323
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1257299059851
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.edit.copy",1257299066179
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1257299070379
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1257299593838
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.file.save",1257299605126
+activated,view,org.eclipse.ui.navigator.resources,3.4.1.M20090826-0800,"org.eclipse.ui.navigator.ProjectExplorer",1257299606406
+opened,editor,com.google.gwt.eclipse.core,1.1.2.v200910131704,"com.google.gwt.eclipse.core.editors.gwtJavaEditor",1257299615159
+activated,editor,com.google.gwt.eclipse.core,1.1.2.v200910131704,"com.google.gwt.eclipse.core.editors.gwtJavaEditor",1257299615259
+activated,view,org.eclipse.ui.navigator.resources,3.4.1.M20090826-0800,"org.eclipse.ui.navigator.ProjectExplorer",1257299620654
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1257299622516
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1257299722448
+activated,editor,com.google.gwt.eclipse.core,1.1.2.v200910131704,"com.google.gwt.eclipse.core.editors.gwtJavaEditor",1257299724635
+error,log,,,"Unexpected error while validating LeftPanel.java",1257299738396

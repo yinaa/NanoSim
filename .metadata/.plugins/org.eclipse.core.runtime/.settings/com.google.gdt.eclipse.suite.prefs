@@ -1,4 +1,6 @@
-#Tue Nov 03 13:59:34 EST 2009
+#Tue Nov 03 20:40:04 EST 2009
 addedNewWizardActionsorg.eclipse.jst.j2ee.J2EEPerspective=true
 eclipse.preferences.version=1
+versionForLastForcedRebuild_NanoSim=1.1.2.v200910131704
 SdkRegistrants=com.google.gwt.eclipse.sdkbundle.win32_1.7.1.v200909221731,com.google.appengine.eclipse.sdkbundle_1.2.6.v200910131704
+versionForLastForcedRebuild_Nanosim\ Testsuite=1.1.2.v200910131704

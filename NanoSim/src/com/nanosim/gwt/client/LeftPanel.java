@@ -19,12 +19,12 @@ public class LeftPanel extends Composite {
 	 * images needed in child widgets.
 	 */
 	public interface Images extends Contacts.Images, Mailboxes.Images {
-		AbstractImagePrototype contactsgroup();
-
-		AbstractImagePrototype mailgroup();
-
-		AbstractImagePrototype researchgroup();
-		
+		AbstractImagePrototype mail();
+		AbstractImagePrototype group();		
+		AbstractImagePrototype proposal();
+		AbstractImagePrototype research();
+		AbstractImagePrototype patent();
+		AbstractImagePrototype transfer();
 	}
 
 	private int nextHeaderIndex = 0;
@@ -37,12 +37,12 @@ public class LeftPanel extends Composite {
 	 */
 	public LeftPanel(Images images) {
 		// Create the groups within the stack panel.
-		add(new Mailboxes(images), images.mailgroup(), "Mail");
-		add(new Contacts(images), images.contactsgroup(), "Group Contacts");
-		add(new Proposals(), images.researchgroup(), "Proposals");
-		add(new Research(), images.researchgroup(), "Research");
-		add(new Patents(), images.researchgroup(), "Patents");
-		add(new SendFund(), images.researchgroup(), "Send Fund");
+		add(new Mailboxes(images), images.mail(), "Mail");
+		add(new Contacts(images), images.group(), "Group Contacts");
+		add(new Proposals(), images.proposal(), "Proposals");
+		add(new Research(), images.research(), "Research");
+		add(new Patents(), images.patent(), "Patents");
+		add(new SendFund(), images.transfer(), "Transfers");
 
 		initWidget(stackPanel);
 	}

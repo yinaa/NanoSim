@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.edit.delete",1257299925015
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.file.save",1257299943164
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1257299945117
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1257299955575
+activated,view,org.eclipse.ui.navigator.resources,3.4.1.M20090826-0800,"org.eclipse.ui.navigator.ProjectExplorer",1257299955590
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.file.refresh",1257299956565
+error,log,,,"Could not acquire children from extension: com.objectgen.designer.projectContent",1257299956875
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1257299965683
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1257299973384
+activated,editor,com.google.gwt.eclipse.core,1.1.2.v200910131704,"com.google.gwt.eclipse.core.editors.gwtJavaEditor",1257299973404
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1257299974543
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1257299976337
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1257299981539
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1257299998808
+activated,view,org.eclipse.ui.navigator.resources,3.4.1.M20090826-0800,"org.eclipse.ui.navigator.ProjectExplorer",1257300000158
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.file.refresh",1257300000971
+error,log,,,"Could not acquire children from extension: com.objectgen.designer.projectContent",1257300001301
+error,log,,,"Could not acquire children from extension: com.objectgen.designer.projectContent",1257300001328
+error,log,,,"Could not acquire children from extension: com.objectgen.designer.projectContent",1257300001333
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1257300003676
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1257300126703
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1257300131122
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1257300133143
+activated,editor,com.google.gwt.eclipse.core,1.1.2.v200910131704,"com.google.gwt.eclipse.core.editors.gwtJavaEditor",1257300133164
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.edit.copy",1257300156129

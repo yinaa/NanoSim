@@ -1,10 +1,26 @@
 what,kind,bundleId,bundleVersion,description,time
-stopped,bundle,org.eclipse.wst.css.core,1.1.300.v200904131653,"org.eclipse.wst.css.core",1257298181915
-stopped,bundle,org.eclipse.wst.xml.xpath2.processor,1.0.0.v200905300355,"org.eclipse.wst.xml.xpath2.processor",1257298181916
-stopped,bundle,org.eclipse.gmf.tests.runtime.draw2d.ui.render,1.2.0.v20090114-0940,"org.eclipse.gmf.tests.runtime.draw2d.ui.render",1257298181918
-stopped,bundle,org.eclipse.gmf.ecore.editor,2.1.0.v20090529-1925,"org.eclipse.gmf.ecore.editor",1257298181920
-stopped,bundle,org.eclipse.gmf.examples.runtime.diagram.geoshapes,1.2.0.v20090403-1720,"org.eclipse.gmf.examples.runtime.diagram.geoshapes",1257298181921
-stopped,bundle,org.eclipse.gmf.tests.runtime.diagram.ui,1.2.0.v20090521-1925,"org.eclipse.gmf.tests.runtime.diagram.ui",1257298181922
-stopped,bundle,org.eclipse.gmf.examples.runtime.diagram.logic,1.2.1.v20090729-2029,"org.eclipse.gmf.examples.runtime.diagram.logic",1257298181944
-stopped,bundle,org.eclipse.gmf.graphdef.editor,1.0.1.v20090612-1925,"org.eclipse.gmf.graphdef.editor",1257298181978
-stopped,bundle,org.eclipse.gmf.map.editor,1.0.0.v20090114-0940,"org.eclipse.gmf.map.editor",1257298181996
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1257300156479
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1257300157651
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.edit.paste",1257300158330
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1257300166230
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1257300170388
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1257300175787
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1257300219562
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1257300228235
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1257300232784
+activated,view,org.eclipse.ui.navigator.resources,3.4.1.M20090826-0800,"org.eclipse.ui.navigator.ProjectExplorer",1257300242811
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.file.refresh",1257300243757
+error,log,,,"Could not acquire children from extension: com.objectgen.designer.projectContent",1257300244122
+error,log,,,"Could not acquire children from extension: com.objectgen.designer.projectContent",1257300244153
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1257300245755
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1257300253237
+activated,editor,com.google.gwt.eclipse.core,1.1.2.v200910131704,"com.google.gwt.eclipse.core.editors.gwtJavaEditor",1257300253259
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1257300275422
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1257300288716
+activated,view,org.eclipse.ui.views,3.4.1.M20090826-0800,"org.eclipse.ui.views.ContentOutline",1257300288743
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1257300290768
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1257300358137
+activated,editor,com.google.gwt.eclipse.core,1.1.2.v200910131704,"com.google.gwt.eclipse.core.editors.gwtJavaEditor",1257300360273
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.edit.copy",1257300369002
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.edit.paste",1257300369955
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.file.save",1257300376135
