@@ -1,22 +1,13 @@
 package com.nanosim.gwt.client;
 
-
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.PreparedStatement;
-//import java.text.SimpleDateFormat;
-import java.util.Date;
-
 import com.google.gwt.user.client.ui.CheckBox;
 import com.google.gwt.user.client.ui.Composite;
 import com.google.gwt.user.client.ui.SimplePanel;
 import com.google.gwt.user.client.ui.VerticalPanel;
 
-
 /**
  * Composite that represents a collection of <code>Task</code> items.
  */
-
 public class SendFund extends Composite{
 	public SendFund() {
 		SimplePanel panel = new SimplePanel();

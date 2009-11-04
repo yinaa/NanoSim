@@ -1,0 +1,11 @@
+package com.nanosim.gwt.client;
+
+import com.google.gwt.user.client.ui.Composite;
+
+public class RightPanel extends Composite {
+
+	public RightPanel() {
+		
+	}
+
+}

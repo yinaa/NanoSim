@@ -31,7 +31,8 @@ public class TopPanel extends Composite implements ClickHandler {
 		inner.setHorizontalAlignment(HorizontalPanel.ALIGN_RIGHT);
 
 		//outer.setHeight("150");
-
+		outer.setWidth("100%");
+		
 		HorizontalPanel links = new HorizontalPanel();
 		links.setSpacing(4);
 		links.add(signOutLink);

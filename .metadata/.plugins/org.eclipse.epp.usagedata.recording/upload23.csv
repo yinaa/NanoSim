@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+activated,view,org.eclipse.ui.navigator.resources,3.4.1.M20090826-0800,"org.eclipse.ui.navigator.ProjectExplorer",1257288220346
+activated,editor,com.google.gwt.eclipse.core,1.1.2.v200910131704,"com.google.gwt.eclipse.core.editors.gwtJavaEditor",1257288220567
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.edit.paste",1257288233230
+error,log,,,"Unexpected Exception",1257288245336
+activated,view,org.eclipse.ui.navigator.resources,3.4.1.M20090826-0800,"org.eclipse.ui.navigator.ProjectExplorer",1257288271242
+activated,editor,com.google.gwt.eclipse.core,1.1.2.v200910131704,"com.google.gwt.eclipse.core.editors.gwtJavaEditor",1257288272640
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.file.save",1257288294916
+activated,view,org.eclipse.ui.navigator.resources,3.4.1.M20090826-0800,"org.eclipse.ui.navigator.ProjectExplorer",1257288297536
+activated,editor,com.google.gwt.eclipse.core,1.1.2.v200910131704,"com.google.gwt.eclipse.core.editors.gwtJavaEditor",1257288297771
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.file.save",1257288316005
+executed,command,,,"AUTOGEN:::com.google.gwt.eclipse.core.editors.gwtJavaEditor.ruler.actions/org.eclipse.jdt.internal.ui.javaeditor.JavaSelectRulerAction",1257288318846
+activated,view,org.eclipse.ui.navigator.resources,3.4.1.M20090826-0800,"org.eclipse.ui.navigator.ProjectExplorer",1257288321584
+activated,editor,com.google.gwt.eclipse.core,1.1.2.v200910131704,"com.google.gwt.eclipse.core.editors.gwtJavaEditor",1257288321799
+activated,view,org.eclipse.ui.navigator.resources,3.4.1.M20090826-0800,"org.eclipse.ui.navigator.ProjectExplorer",1257288327555
+activated,editor,com.google.gwt.eclipse.core,1.1.2.v200910131704,"com.google.gwt.eclipse.core.editors.gwtJavaEditor",1257288327793
+activated,editor,com.google.gwt.eclipse.core,1.1.2.v200910131704,"com.google.gwt.eclipse.core.editors.gwtJavaEditor",1257288340135
+activated,editor,com.google.gwt.eclipse.core,1.1.2.v200910131704,"com.google.gwt.eclipse.core.editors.gwtJavaEditor",1257288345281
+executed,command,,,"AUTOGEN:::com.google.gwt.eclipse.core.editors.gwtJavaEditor.ruler.actions/org.eclipse.jdt.internal.ui.javaeditor.JavaSelectRulerAction",1257288364521
+executed,command,,,"AUTOGEN:::com.google.gwt.eclipse.core.editors.gwtJavaEditor.ruler.actions/org.eclipse.jdt.internal.ui.javaeditor.JavaSelectRulerAction",1257288365001
+activated,editor,com.google.gwt.eclipse.core,1.1.2.v200910131704,"com.google.gwt.eclipse.core.editors.gwtJavaEditor",1257288367678
+activated,editor,com.google.gwt.eclipse.core,1.1.2.v200910131704,"com.google.gwt.eclipse.core.editors.gwtJavaEditor",1257288391285
+activated,editor,com.google.gwt.eclipse.core,1.1.2.v200910131704,"com.google.gwt.eclipse.core.editors.gwtJavaEditor",1257288402881
+activated,editor,com.google.gwt.eclipse.core,1.1.2.v200910131704,"com.google.gwt.eclipse.core.editors.gwtJavaEditor",1257288411900
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.edit.copy",1257288416653
+activated,editor,com.google.gwt.eclipse.core,1.1.2.v200910131704,"com.google.gwt.eclipse.core.editors.gwtJavaEditor",1257288417839

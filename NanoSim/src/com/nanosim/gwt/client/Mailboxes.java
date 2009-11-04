@@ -11,7 +11,26 @@ import com.google.gwt.user.client.ui.TreeItem;
  * A tree displaying a set of email folders.
  */
 public class Mailboxes extends Composite {
+	
+	private static Mailboxes singleton;
 
+	private MailList   mailList;
+	private MailDetail mailDetail = new MailDetail();
+	String width = new String("70%");
+	
+	public static Mailboxes get() {
+		return singleton;
+	}
+	
+	/**
+	 * Displays the specified item.
+	 * 
+	 * @param item
+	 */
+	public void displayItem(MailItem item) {
+		mailDetail.setItem(item);
+	}
+	
 	/**
 	 * Specifies the images that will be bundled for this Composite and specify
 	 * that tree's images should also be included in the same bundle.
@@ -37,6 +56,7 @@ public class Mailboxes extends Composite {
 	 * @param images a bundle that provides the images for this widget
 	 */
 	public Mailboxes(Images images) {
+		singleton = this;
 		tree = new Tree(images);
 		TreeItem root = new TreeItem(imageItemHTML(images.home(),
 				"user@nanosim.com"));
@@ -46,6 +66,16 @@ public class Mailboxes extends Composite {
 		addImageItem(root, "Drafts", images.drafts());
 		addImageItem(root, "Sent", images.sent());
 
+		// MailList uses Mail.get() in its constructor, so initialize it after
+		// 'singleton'.
+		mailList = new MailList();
+		//
+		// // Create the right panel, containing the email list & details.
+		RightPanel.add(mailList);
+		RightPanel.add(mailDetail);
+		mailList.setWidth(width);
+		mailDetail.setWidth(width);
+		
 		root.setState(true);
 		initWidget(tree);
 	}

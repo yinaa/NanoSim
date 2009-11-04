@@ -10,6 +10,8 @@ import com.google.gwt.user.client.ui.ImageBundle;
 import com.google.gwt.user.client.ui.Label;
 import com.google.gwt.user.client.ui.PopupPanel;
 import com.google.gwt.user.client.ui.SimplePanel;
+import com.google.gwt.user.client.ui.Tree;
+import com.google.gwt.user.client.ui.TreeItem;
 import com.google.gwt.user.client.ui.VerticalPanel;
 
 /**
@@ -43,7 +45,8 @@ public class Contacts extends Composite {
 	private class ContactPopup extends PopupPanel {
 
 		public ContactPopup(Contact contact) {
-			// The popup's constructor's argument is a boolean specifying that it
+			// The popup's constructor's argument is a boolean specifying that
+			// it
 			// auto-close itself when the user clicks outside of it.
 			super(true);
 
@@ -68,29 +71,44 @@ public class Contacts extends Composite {
 	private Contact[] contacts = new Contact[] {
 			new Contact("Congress", "congress@nanosim.com"),
 			new Contact("NSF", "nsf@nanosim.com"),
-			new Contact("Darpa", "darpa@nanosim.com") };
+			new Contact("Darpa", "darpa@nanosim.com"),
+			new Contact("IBM", "ibm@nanosim.com"),
+			new Contact("MIT", "mit@nanosim.com"),
+			new Contact("NASA", "nasa@nanosim.com"),
+			new Contact("RICE", "rice@nanosim.com"),
+			new Contact("ASU", "asu@nanosim.com"),
+			new Contact("WWIC", "wwic@nanosim.com"),
+			new Contact("Nanopost", "nanopost@nanosim.com") };
 
 	private VerticalPanel panel = new VerticalPanel();
 	private final Images images;
+	private Tree tree = new Tree();
 
 	public Contacts(Images images) {
 		SimplePanel outer = new SimplePanel();
 		outer.setWidget(panel);
 
 		this.images = images;
+
 		// Add all the contacts to the list.
 		for (int i = 0; i < contacts.length; ++i) {
 			addContact(contacts[i]);
 		}
+
+		panel.add(tree);
 
 		initWidget(outer);
 		setStyleName("nanosim-Contacts");
 	}
 
 	private void addContact(final Contact contact) {
+		TreeItem root = null;
 		final HTML link = new HTML("<a href='javascript:;'>" + contact.name
 				+ "</a>");
-		panel.add(link);
+		root = new TreeItem(link);
+		root.setState(true);
+		tree.addItem(root);
+		// panel.add(link);
 
 		// Add a click handler that displays a ContactPopup when it is clicked.
 		link.addClickHandler(new ClickHandler() {

@@ -1,0 +1,5 @@
+package com.nanosim.gwt.client;
+
+public class RightPanel {
+
+}
