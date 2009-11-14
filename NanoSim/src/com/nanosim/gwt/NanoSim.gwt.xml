@@ -15,4 +15,10 @@
 
   <!-- Specify the app entry point class.                         -->
   <entry-point class='com.nanosim.gwt.client.NanoSim'/>
+  
+  <!-- Tomcat will listen for this from the server and waits for rpc request in
+	this context -->
+	<servlet class="com.nanosim.server.MySQLConnection"
+		path="/MySQLConnection" />
+		
 </module>

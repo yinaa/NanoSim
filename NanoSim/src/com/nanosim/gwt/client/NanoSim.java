@@ -7,6 +7,7 @@ import com.google.gwt.event.logical.shared.ResizeHandler;
 import com.google.gwt.user.client.Command;
 import com.google.gwt.user.client.DeferredCommand;
 import com.google.gwt.user.client.Window;
+import com.google.gwt.user.client.rpc.ServiceDefTarget;
 import com.google.gwt.user.client.ui.DockPanel;
 import com.google.gwt.user.client.ui.RootPanel;
 
@@ -16,6 +17,7 @@ import com.google.gwt.user.client.ui.RootPanel;
 public class NanoSim implements EntryPoint, ResizeHandler {
 
 	private static NanoSim singleton;
+
 
 	private static final Images images = GWT.create(Images.class);
 
