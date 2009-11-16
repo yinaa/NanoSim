@@ -4,21 +4,68 @@
     "http://java.sun.com/dtd/web-app_2_3.dtd">
 
 <web-app>
-  
-  <!-- Servlets -->
-  <servlet>
-    <servlet-name>greetServlet</servlet-name>
-    <servlet-class>com.nanosim.gwt.server.GreetingServiceImpl</servlet-class>
-  </servlet>
-  
-  <servlet-mapping>
-    <servlet-name>greetServlet</servlet-name>
-    <url-pattern>/nanosim/greet</url-pattern>
-  </servlet-mapping>
-  
-  <!-- Default page to serve -->
-  <welcome-file-list>
-    <welcome-file>NanoSim.html</welcome-file>
-  </welcome-file-list>
+
+	<!-- Default page to serve -->
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+	</welcome-file-list>
+
+	<!-- Servlets -->
+	<servlet>
+		<servlet-name>LoginService</servlet-name>
+		<servlet-class>com.nanosim.server.LoginServiceImpl</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>LoginService</servlet-name>
+		<url-pattern>/nanosim/LoginService</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>PatentService</servlet-name>
+		<servlet-class>com.nanosim.server.PatentServiceImpl</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>PatentService</servlet-name>
+		<url-pattern>/nanosim/PatentService</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>ProposalService</servlet-name>
+		<servlet-class>com.nanosim.server.ProposalServiceImpl</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ProposalService</servlet-name>
+		<url-pattern>/nanosim/ProposalService</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>GroupService</servlet-name>
+		<servlet-class>com.nanosim.server.GroupServiceImpl</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>GroupService</servlet-name>
+		<url-pattern>/nanosim/GroupService</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>TransferService</servlet-name>
+		<servlet-class>com.nanosim.server.TransferServiceImpl</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>TransferService</servlet-name>
+		<url-pattern>/nanosim/TransferService</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>ResearchService</servlet-name>
+		<servlet-class>com.nanosim.server.ResearchServiceImpl</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ResearchService</servlet-name>
+		<url-pattern>/nanosim/ResearchService</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>NewspaperService</servlet-name>
+		<servlet-class>com.nanosim.server.NewspaperServiceImpl</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>NewspaperService</servlet-name>
+		<url-pattern>/nanosim/NewspaperService</url-pattern>
+	</servlet-mapping>
 
 </web-app>

@@ -17,7 +17,6 @@
 	<source path='event' />
 	<source path='model' />
 
-
 	<!-- Specify the app entry point class.                         -->
 	<entry-point class='com.nanosim.client.NanoSim' />
 
