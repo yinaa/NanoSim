@@ -23,7 +23,7 @@ public class NanoSim implements EntryPoint, ResizeHandler {
 	public void onModuleLoad() {
 		// singleton = this;
 
-		LoginScreen loginScreen = new LoginScreen();
+		SigninScreen loginScreen = new SigninScreen();
 		loginScreen.addLoginHandler(new ILoginHandler() {
 
 			@Override
