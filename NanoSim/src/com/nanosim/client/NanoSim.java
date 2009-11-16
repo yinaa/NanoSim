@@ -27,29 +27,41 @@ public class NanoSim implements EntryPoint, ResizeHandler {
 		return instance;
 	}
 
+	private Person person;
+
 	/**
 	 * This is the entry point method.
 	 */
 	public void onModuleLoad() {
 		instance = this;
 
+		if (!cookieHelper.getIsLoggedIn()) {
+			setSigninScreen();
+		} else
+			setHomeScreen();
+	}
+
+	private void setSigninScreen() {
 		SigninScreen loginScreen = new SigninScreen();
 		loginScreen.addLoginHandler(new ILoginHandler() {
 
 			@Override
 			public void OnSuccess(Person p) {
+				person = p;
 				cookieHelper.setIsLoggedIn(true);
-				initHomeScreen(p);
+				setHomeScreen();
 			}
 		});
-		RootPanel.get().add(loginScreen);
+		RootPanel rootPanel = RootPanel.get();
+		rootPanel.clear();
+		rootPanel.add(loginScreen);
 	}
 
 	private HomeScreen homeScreen;
 
-	private void initHomeScreen(Person p) {
+	private void setHomeScreen() {
 
-		homeScreen = new HomeScreen(p, this);
+		homeScreen = new HomeScreen(person, this);
 
 		// Hook the window resize event, so that we can adjust the UI.
 		Window.addResizeHandler(this);
@@ -61,8 +73,9 @@ public class NanoSim implements EntryPoint, ResizeHandler {
 
 		// Finally, add the outer panel to the RootPanel, so that it will be
 		// displayed.
-		RootPanel.get().clear();
-		RootPanel.get().add(homeScreen);
+		RootPanel rootPanel = RootPanel.get();
+		rootPanel.clear();
+		rootPanel.add(homeScreen);
 
 		// Call the window resized handler to get the initial sizes setup.
 		// Doing this in a deferred command causes it to occur after all
@@ -84,7 +97,7 @@ public class NanoSim implements EntryPoint, ResizeHandler {
 	}
 
 	public void onWindowResized(HomeScreen homeScreen, int width, int height) {
-		if (homeScreen != null) {
+		if (homeScreen != null && homeScreen.leftPanel != null) {
 			// Adjust the shortcut panel and detail area to take up the
 			// available room in the window.
 			int shortcutHeight = height - homeScreen.leftPanel.getAbsoluteTop()
@@ -97,5 +110,10 @@ public class NanoSim implements EntryPoint, ResizeHandler {
 			// Give the right panel widget a chance to resize itself as well.
 			homeScreen.rightPanel.setPixelSize(width, height);
 		}
+	}
+
+	public void Logout() {
+		cookieHelper.setIsLoggedIn(false);
+		setSigninScreen();
 	}
 }

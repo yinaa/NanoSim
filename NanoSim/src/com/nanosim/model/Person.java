@@ -2,7 +2,7 @@ package com.nanosim.model;
 
 import java.io.Serializable;
 
-public class Person implements Serializable{
+public class Person implements Serializable {
 
 	/**
 	 * 
@@ -14,7 +14,7 @@ public class Person implements Serializable{
 	private String name;
 
 	private long groupId;
-	
+
 	public long getPersonId() {
 		return personId;
 	}
@@ -25,6 +25,10 @@ public class Person implements Serializable{
 
 	public String getName() {
 		return name;
+	}
+
+	public String getEmail() {
+		return name.toLowerCase() + "@nanosim.com";
 	}
 
 	public void setName(String name) {

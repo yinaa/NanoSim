@@ -13,7 +13,7 @@ public class PersonDAO {
 		try {
 			rs = sqlHelper
 					.executeQuery(
-							"select * from persons where name = ? and password=PASSWORD(?)",
+							"select * from persons where name = ? and password=?",
 							userName, password);
 			Person p = new Person();
 			if (rs.next()) {
