@@ -40,7 +40,7 @@ public class SendFund extends Composite{
 		Date now = new Date();
 		System.out.println(now.getTime());
 		Budget b[] = new Budget[1];
-		b[0] = new Budget(now, credit );
+		//b[0] = new Budget(now, credit );
 	    
 //		AsyncCallback<Budget> callback = new AuthenticationHandler<Budget>();
 		//rpc.insertBudget(now, credit, callback);
