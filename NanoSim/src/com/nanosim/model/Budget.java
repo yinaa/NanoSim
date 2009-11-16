@@ -1,72 +1,18 @@
 package com.nanosim.model;
 
-import java.io.Serializable;
-import java.sql.Timestamp;
+import java.util.Date;
 
-public class Budget implements Serializable {
+import com.google.gwt.user.client.rpc.IsSerializable;
 
-	/**
-	 * 
-	 */
-	private static final long serialVersionUID = 6710322197663774769L;
-	
-	private int budgetId;
-	private float credit;
-	private int groupId;
-	private String purpose;
-	private Timestamp time;
+public class Budget implements IsSerializable {
+	private Date time;
+	private double credit;
 
-	private float total;
-
-	public Budget() {
+	private Budget(){
+		//just here because GWT wants it
 	}
-
-	public int getBudgetId() {
-		return this.budgetId;
+	public Budget(Date t, double c){
+		this.time = t;
+		this.credit = c; 
 	}
-
-	public void setBudgetId(int budgetId) {
-		this.budgetId = budgetId;
-	}
-
-	public float getCredit() {
-		return this.credit;
-	}
-
-	public void setCredit(float credit) {
-		this.credit = credit;
-	}
-
-	public int getGroupId() {
-		return this.groupId;
-	}
-
-	public void setGroupId(int groupId) {
-		this.groupId = groupId;
-	}
-
-	public String getPurpose() {
-		return this.purpose;
-	}
-
-	public void setPurpose(String purpose) {
-		this.purpose = purpose;
-	}
-
-	public Timestamp getTime() {
-		return this.time;
-	}
-
-	public void setTime(Timestamp time) {
-		this.time = time;
-	}
-
-	public float getTotal() {
-		return this.total;
-	}
-
-	public void setTotal(float total) {
-		this.total = total;
-	}
-
 }

@@ -5,8 +5,9 @@ import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
 import java.util.Date;
-import com.nanosim.client.Budget;
+
 import com.nanosim.client.DBConnection;
+import com.nanosim.model.Budget;
 
 
 public class MySQLConnection implements DBConnection {
