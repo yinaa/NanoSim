@@ -8,17 +8,17 @@ public class Budget implements Serializable {
 	private static final long serialVersionUID = 6710322197663774769L;
 
 	private int budgetId;
-	private float credit;
+	private double credit;
 	private int groupId;
 	private String purpose;
 	private Date time;
 
-	private float total;
+	private double total;
 
 	public Budget() {
 	}
 
-	public Budget(Date t, float c) {
+	public Budget(Date t, double c) {
 		this.time = t;
 		this.credit = c;
 	}
@@ -31,11 +31,11 @@ public class Budget implements Serializable {
 		this.budgetId = budgetId;
 	}
 
-	public float getCredit() {
+	public double getCredit() {
 		return this.credit;
 	}
 
-	public void setCredit(float credit) {
+	public void setCredit(double credit) {
 		this.credit = credit;
 	}
 
@@ -63,11 +63,11 @@ public class Budget implements Serializable {
 		this.time = time;
 	}
 
-	public float getTotal() {
+	public double getTotal() {
 		return this.total;
 	}
 
-	public void setTotal(float total) {
+	public void setTotal(double total) {
 		this.total = total;
 	}
 }
