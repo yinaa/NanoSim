@@ -7,7 +7,7 @@
 
 	<!-- Default page to serve -->
 	<welcome-file-list>
-		<welcome-file>index.html</welcome-file>
+		<welcome-file>NanoSim.html</welcome-file>
 	</welcome-file-list>
 
 	<!-- Servlets -->
