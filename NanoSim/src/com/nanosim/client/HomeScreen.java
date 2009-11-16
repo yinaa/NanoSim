@@ -21,7 +21,6 @@ public class HomeScreen extends Composite {
 	private Group group;
 	private GroupType groupType;
 
-	private static NanoSim singleton;
 	private static final Images images = GWT.create(Images.class);
 
 	/**
@@ -31,20 +30,14 @@ public class HomeScreen extends Composite {
 	public interface Images extends LeftPanel.Images, TopPanel.Images {
 	}
 
-	public static NanoSim get() {
-		return singleton;
-	}
-
-	public RightPanel rightPanel = new RightPanel();
-	public TopPanel topPanel = new TopPanel(images);
-	public LeftPanel leftPanel = new LeftPanel(images);
+	public RightPanel rightPanel;
+	public TopPanel topPanel;
+	public LeftPanel leftPanel;
 	String width = new String("80%");
 
 	public HomeScreen(Person person, EntryPoint nanosim) {
 		this.person = person;
-		//final String initToken = History.getToken();
-
-		topPanel.setWidth("70%");
+		// final String initToken = History.getToken();
 
 		// Create a dock panel that will contain the menu bar at the top,
 		// the shortcuts to the left, and the mail list & details taking the
@@ -82,12 +75,15 @@ public class HomeScreen extends Composite {
 	}
 
 	private void initChildWidgets(DockPanel outer) {
+		rightPanel = new RightPanel();
+		topPanel = new TopPanel(person, group, images);
+		leftPanel = new LeftPanel(groupType, images);
 
-		 topPanel.setWidth("70%");
-		
-		 outer.add(topPanel, DockPanel.NORTH);
-		 outer.add(leftPanel, DockPanel.WEST);
-		 outer.add(rightPanel, DockPanel.CENTER);
-		 outer.setCellWidth(rightPanel, "100%");
+		topPanel.setWidth("70%");
+
+		outer.add(topPanel, DockPanel.NORTH);
+		outer.add(leftPanel, DockPanel.WEST);
+		outer.add(rightPanel, DockPanel.CENTER);
+		outer.setCellWidth(rightPanel, "100%");
 	}
 }

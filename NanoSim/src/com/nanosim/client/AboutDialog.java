@@ -21,7 +21,7 @@ public class AboutDialog extends DialogBox {
 
 		// Create the 'about' text and set a style name so we can style it with CSS.
 		HTML text = new HTML("NanoSim is a Role play simularion of the NNI "
-				+ "developed by: " + "Yina Arenas, Mona Sergi and Tamal Saha"
+				+ "developed by: " + "Yina Arenas, Tamal Saha and Mona Sergi"
 				+ " 2009");
 		text.setStyleName("nanosim-AboutText");
 		outer.add(text);

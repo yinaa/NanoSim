@@ -1,6 +1,7 @@
 package com.nanosim.client;
 
 import com.google.gwt.core.client.EntryPoint;
+import com.google.gwt.core.client.GWT;
 import com.google.gwt.event.logical.shared.ResizeEvent;
 import com.google.gwt.event.logical.shared.ResizeHandler;
 import com.google.gwt.user.client.Command;
@@ -17,11 +18,20 @@ public class NanoSim implements EntryPoint, ResizeHandler {
 
 	private CookieHelper cookieHelper = CookieHelper.Util.getInstance();
 
+	private static NanoSim instance;
+
+	public static NanoSim getInstance() {
+		if (instance == null) {
+			instance = GWT.create(NanoSim.class);
+		}
+		return instance;
+	}
+
 	/**
 	 * This is the entry point method.
 	 */
 	public void onModuleLoad() {
-		// singleton = this;
+		instance = this;
 
 		SigninScreen loginScreen = new SigninScreen();
 		loginScreen.addLoginHandler(new ILoginHandler() {
@@ -70,20 +80,22 @@ public class NanoSim implements EntryPoint, ResizeHandler {
 
 	@Override
 	public void onResize(ResizeEvent event) {
-		if (homeScreen != null)
-			onWindowResized(homeScreen, event.getWidth(), event.getHeight());
+		onWindowResized(homeScreen, event.getWidth(), event.getHeight());
 	}
 
 	public void onWindowResized(HomeScreen homeScreen, int width, int height) {
-		// Adjust the shortcut panel and detail area to take up the available
-		// room in the window.
-		int shortcutHeight = height - homeScreen.leftPanel.getAbsoluteTop() - 8;
-		if (shortcutHeight < 1) {
-			shortcutHeight = 1;
-		}
-		homeScreen.leftPanel.setHeight(shortcutHeight + "px");
+		if (homeScreen != null) {
+			// Adjust the shortcut panel and detail area to take up the
+			// available room in the window.
+			int shortcutHeight = height - homeScreen.leftPanel.getAbsoluteTop()
+					- 8;
+			if (shortcutHeight < 1) {
+				shortcutHeight = 1;
+			}
+			homeScreen.leftPanel.setHeight(shortcutHeight + "px");
 
-		// Give the right panel widget a chance to resize itself as well.
-		homeScreen.rightPanel.setPixelSize(width, height);
+			// Give the right panel widget a chance to resize itself as well.
+			homeScreen.rightPanel.setPixelSize(width, height);
+		}
 	}
 }

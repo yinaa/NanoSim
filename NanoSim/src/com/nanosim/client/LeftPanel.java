@@ -4,6 +4,7 @@ import com.google.gwt.user.client.ui.AbstractImagePrototype;
 import com.google.gwt.user.client.ui.Composite;
 import com.google.gwt.user.client.ui.DecoratedStackPanel;
 import com.google.gwt.user.client.ui.Widget;
+import com.nanosim.model.GroupType;
 
 /**
  * A composite that contains the shortcut stack panel on the left side. The
@@ -20,10 +21,15 @@ public class LeftPanel extends Composite {
 	 */
 	public interface Images extends Contacts.Images, Mailboxes.Images {
 		AbstractImagePrototype mail();
-		AbstractImagePrototype group();		
+
+		AbstractImagePrototype group();
+
 		AbstractImagePrototype proposal();
+
 		AbstractImagePrototype research();
+
 		AbstractImagePrototype patent();
+
 		AbstractImagePrototype transfer();
 	}
 
@@ -33,15 +39,17 @@ public class LeftPanel extends Composite {
 	/**
 	 * Constructs a new shortcuts widget using the specified images.
 	 * 
-	 * @param images a bundle that provides the images for this widget
+	 * @param images
+	 *            a bundle that provides the images for this widget
 	 */
-	public LeftPanel(Images images) {
+	public LeftPanel(GroupType groupType, Images images) {
 		// Create the groups within the stack panel.
 		add(new Mailboxes(images), images.mail(), "Mail");
 		add(new Contacts(images), images.group(), "Group Contacts");
 		add(new Proposals(), images.proposal(), "Proposals");
 		add(new Research(), images.research(), "Research");
-		add(new Patents(), images.patent(), "Patents");
+		if (groupType.getHasPatents())
+			add(new Patents(), images.patent(), "Patents");
 		add(new SendFund(), images.transfer(), "Transfers");
 
 		initWidget(stackPanel);
@@ -63,8 +71,10 @@ public class LeftPanel extends Composite {
 	 * Creates an HTML fragment that places an image & caption together, for use
 	 * in a group header.
 	 * 
-	 * @param imageProto an image prototype for an image
-	 * @param caption the group caption
+	 * @param imageProto
+	 *            an image prototype for an image
+	 * @param caption
+	 *            the group caption
 	 * @return the header HTML fragment
 	 */
 	private String createHeaderHTML(AbstractImagePrototype imageProto,

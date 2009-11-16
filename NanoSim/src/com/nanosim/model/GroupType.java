@@ -6,16 +6,16 @@ public class GroupType implements Serializable {
 
 	private static final long serialVersionUID = 2892477664295981025L;
 	
-	public final String GOVERNMENT = "Government"; 
-	
-	public final String FUNDING_AGENCY = "Fuding Agency"; 
-	
-	public final String PRIVATE_LAB = "Private Labratory"; 
-	public final String PUBLIC_LAB = "Public Labratory";
-	
-	public final String REVIEW = "Review"; 
-	public final String Newspaper = "Newspaper"; 
-	public final String RISK_REDUCTION = "Risk Reduction"; 
+//	public final String GOVERNMENT = "Government"; 
+//	
+//	public final String FUNDING_AGENCY = "Fuding Agency"; 
+//	
+//	public final String PRIVATE_LAB = "Private Labratory"; 
+//	public final String PUBLIC_LAB = "Public Labratory";
+//	
+//	public final String REVIEW = "Review"; 
+//	public final String Newspaper = "Newspaper"; 
+//	public final String RISK_REDUCTION = "Risk Reduction"; 
 
 	private long groupTypeId;
 	private String name;
