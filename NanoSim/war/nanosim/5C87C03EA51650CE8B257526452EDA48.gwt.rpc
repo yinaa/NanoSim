@@ -1,0 +1,7 @@
+com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException, true
+com.nanosim.model.Group, true
+com.nanosim.model.GroupType, true
+java.lang.Exception, false
+java.lang.RuntimeException, false
+java.lang.String, true
+java.lang.Throwable, false

@@ -1,0 +1,196 @@
+Loading module 'com.nanosim.NanoSim'
+   Loading inherited module 'com.google.gwt.user.User'
+      Loading inherited module 'com.google.gwt.core.Core'
+         Loading inherited module 'com.google.gwt.dev.jjs.intrinsic.Intrinsic'
+            Loading inherited module 'com.google.gwt.lang.LongLib'
+         Loading inherited module 'com.google.gwt.emul.Emulation'
+         Loading inherited module 'com.google.gwt.core.CompilerParameters'
+      Loading inherited module 'com.google.gwt.event.Event'
+         Loading inherited module 'com.google.gwt.event.EventBase'
+            Loading inherited module 'com.google.gwt.core.Core'
+               Module 'com.google.gwt.core.Core' has already been loaded and will be skipped
+         Loading inherited module 'com.google.gwt.event.dom.DomEvent'
+            Loading inherited module 'com.google.gwt.event.EventBase'
+               Module 'com.google.gwt.event.EventBase' has already been loaded and will be skipped
+            Loading inherited module 'com.google.gwt.dom.DOM'
+               Loading inherited module 'com.google.gwt.core.Core'
+                  Module 'com.google.gwt.core.Core' has already been loaded and will be skipped
+               Loading inherited module 'com.google.gwt.user.UserAgent'
+                  Loading inherited module 'com.google.gwt.emul.EmulationWithUserAgent'
+                     Loading inherited module 'com.google.gwt.emul.Emulation'
+                        Module 'com.google.gwt.emul.Emulation' has already been loaded and will be skipped
+         Loading inherited module 'com.google.gwt.event.logical.LogicalEvent'
+            Loading inherited module 'com.google.gwt.event.EventBase'
+               Module 'com.google.gwt.event.EventBase' has already been loaded and will be skipped
+      Loading inherited module 'com.google.gwt.animation.Animation'
+         Loading inherited module 'com.google.gwt.core.Core'
+            Module 'com.google.gwt.core.Core' has already been loaded and will be skipped
+         Loading inherited module 'com.google.gwt.user.User'
+            Module 'com.google.gwt.user.User' has already been loaded and will be skipped
+      Loading inherited module 'com.google.gwt.user.RemoteService'
+         Loading inherited module 'com.google.gwt.http.HTTP'
+            Loading inherited module 'com.google.gwt.core.Core'
+               Module 'com.google.gwt.core.Core' has already been loaded and will be skipped
+      Loading inherited module 'com.google.gwt.user.DocumentRoot'
+         Loading inherited module 'com.google.gwt.core.Core'
+            Module 'com.google.gwt.core.Core' has already been loaded and will be skipped
+         Loading inherited module 'com.google.gwt.user.UserAgent'
+            Module 'com.google.gwt.user.UserAgent' has already been loaded and will be skipped
+      Loading inherited module 'com.google.gwt.user.DOM'
+         Loading inherited module 'com.google.gwt.core.Core'
+            Module 'com.google.gwt.core.Core' has already been loaded and will be skipped
+         Loading inherited module 'com.google.gwt.dom.DOM'
+            Module 'com.google.gwt.dom.DOM' has already been loaded and will be skipped
+         Loading inherited module 'com.google.gwt.user.UserAgent'
+            Module 'com.google.gwt.user.UserAgent' has already been loaded and will be skipped
+      Loading inherited module 'com.google.gwt.user.Window'
+         Loading inherited module 'com.google.gwt.core.Core'
+            Module 'com.google.gwt.core.Core' has already been loaded and will be skipped
+         Loading inherited module 'com.google.gwt.user.UserAgent'
+            Module 'com.google.gwt.user.UserAgent' has already been loaded and will be skipped
+      Loading inherited module 'com.google.gwt.user.HTTPRequest'
+         Loading inherited module 'com.google.gwt.core.Core'
+            Module 'com.google.gwt.core.Core' has already been loaded and will be skipped
+         Loading inherited module 'com.google.gwt.user.UserAgent'
+            Module 'com.google.gwt.user.UserAgent' has already been loaded and will be skipped
+      Loading inherited module 'com.google.gwt.user.History'
+         Loading inherited module 'com.google.gwt.core.Core'
+            Module 'com.google.gwt.core.Core' has already been loaded and will be skipped
+         Loading inherited module 'com.google.gwt.user.UserAgent'
+            Module 'com.google.gwt.user.UserAgent' has already been loaded and will be skipped
+      Loading inherited module 'com.google.gwt.i18n.I18N'
+      Loading inherited module 'com.google.gwt.user.Popup'
+         Loading inherited module 'com.google.gwt.core.Core'
+            Module 'com.google.gwt.core.Core' has already been loaded and will be skipped
+         Loading inherited module 'com.google.gwt.user.UserAgent'
+            Module 'com.google.gwt.user.UserAgent' has already been loaded and will be skipped
+      Loading inherited module 'com.google.gwt.user.Form'
+         Loading inherited module 'com.google.gwt.core.Core'
+            Module 'com.google.gwt.core.Core' has already been loaded and will be skipped
+         Loading inherited module 'com.google.gwt.user.UserAgent'
+            Module 'com.google.gwt.user.UserAgent' has already been loaded and will be skipped
+      Loading inherited module 'com.google.gwt.user.TextBox'
+         Loading inherited module 'com.google.gwt.core.Core'
+            Module 'com.google.gwt.core.Core' has already been loaded and will be skipped
+         Loading inherited module 'com.google.gwt.user.UserAgent'
+            Module 'com.google.gwt.user.UserAgent' has already been loaded and will be skipped
+      Loading inherited module 'com.google.gwt.user.Focus'
+         Loading inherited module 'com.google.gwt.core.Core'
+            Module 'com.google.gwt.core.Core' has already been loaded and will be skipped
+         Loading inherited module 'com.google.gwt.user.UserAgent'
+            Module 'com.google.gwt.user.UserAgent' has already been loaded and will be skipped
+      Loading inherited module 'com.google.gwt.user.ImageBundle'
+         Loading inherited module 'com.google.gwt.user.ClippedImage'
+            Loading inherited module 'com.google.gwt.core.Core'
+               Module 'com.google.gwt.core.Core' has already been loaded and will be skipped
+            Loading inherited module 'com.google.gwt.user.UserAgent'
+               Module 'com.google.gwt.user.UserAgent' has already been loaded and will be skipped
+      Loading inherited module 'com.google.gwt.user.ClippedImage'
+         Module 'com.google.gwt.user.ClippedImage' has already been loaded and will be skipped
+      Loading inherited module 'com.google.gwt.user.RichText'
+         Loading inherited module 'com.google.gwt.core.Core'
+            Module 'com.google.gwt.core.Core' has already been loaded and will be skipped
+         Loading inherited module 'com.google.gwt.user.UserAgent'
+            Module 'com.google.gwt.user.UserAgent' has already been loaded and will be skipped
+      Loading inherited module 'com.google.gwt.user.SplitPanel'
+         Loading inherited module 'com.google.gwt.user.User'
+            Module 'com.google.gwt.user.User' has already been loaded and will be skipped
+      Loading inherited module 'com.google.gwt.user.CaptionPanel'
+         Loading inherited module 'com.google.gwt.core.Core'
+            Module 'com.google.gwt.core.Core' has already been loaded and will be skipped
+         Loading inherited module 'com.google.gwt.user.UserAgent'
+            Module 'com.google.gwt.user.UserAgent' has already been loaded and will be skipped
+      Loading inherited module 'com.google.gwt.user.Window'
+         Module 'com.google.gwt.user.Window' has already been loaded and will be skipped
+      Loading inherited module 'com.google.gwt.user.Tree'
+         Loading inherited module 'com.google.gwt.core.Core'
+            Module 'com.google.gwt.core.Core' has already been loaded and will be skipped
+         Loading inherited module 'com.google.gwt.user.UserAgent'
+            Module 'com.google.gwt.user.UserAgent' has already been loaded and will be skipped
+      Loading inherited module 'com.google.gwt.user.Hyperlink'
+         Loading inherited module 'com.google.gwt.core.Core'
+            Module 'com.google.gwt.core.Core' has already been loaded and will be skipped
+         Loading inherited module 'com.google.gwt.user.UserAgent'
+            Module 'com.google.gwt.user.UserAgent' has already been loaded and will be skipped
+      Loading inherited module 'com.google.gwt.user.datepicker.DatePicker'
+   Loading inherited module 'com.google.gwt.user.theme.chrome.Chrome'
+   Public resources found in...
+      Refreshing resources
+         Searching for resources within file:/C:/Program%20Files/Java/jre6/lib/ext/QTJava.zip
+            Indexing zip file: C:\Program Files\Java\jre6\lib\ext\QTJava.zip
+         Searching for resources within file:/D:/Programming%20Software/Eclipse/JDT/eclipse-3.5%20-%20GWT/eclipse/plugins/com.google.gwt.eclipse.sdkbundle.win32_1.7.1.v200909221731/gwt-windows-1.7.1/gwt-user.jar
+            Indexing zip file: D:\Programming Software\Eclipse\JDT\eclipse-3.5 - GWT\eclipse\plugins\com.google.gwt.eclipse.sdkbundle.win32_1.7.1.v200909221731\gwt-windows-1.7.1\gwt-user.jar
+         Searching for resources within file:/D:/Programming%20Software/Eclipse/JDT/eclipse-3.5%20-%20GWT/eclipse/plugins/com.google.gwt.eclipse.sdkbundle.win32_1.7.1.v200909221731/gwt-windows-1.7.1/gwt-dev-windows.jar
+            Indexing zip file: D:\Programming Software\Eclipse\JDT\eclipse-3.5 - GWT\eclipse\plugins\com.google.gwt.eclipse.sdkbundle.win32_1.7.1.v200909221731\gwt-windows-1.7.1\gwt-dev-windows.jar
+         Searching for resources within file:/C:/Program%20Files/Java/jre6/lib/ext/QTJava.zip
+            Indexing zip file: C:\Program Files\Java\jre6\lib\ext\QTJava.zip
+   Translatable source found in...
+      Refreshing resources
+         Searching for resources within file:/C:/Program%20Files/Java/jre6/lib/ext/QTJava.zip
+            Indexing zip file: C:\Program Files\Java\jre6\lib\ext\QTJava.zip
+         Searching for resources within file:/C:/Program%20Files/Java/jre6/lib/ext/QTJava.zip
+            Indexing zip file: C:\Program Files\Java\jre6\lib\ext\QTJava.zip
+Refreshing module from source
+   Validating newly compiled units
+      Removing units with errors
+         [ERROR] Errors in 'jar:file:/D:/Programming%20Software/Eclipse/JDT/eclipse-3.5%20-%20GWT/eclipse/plugins/com.google.gwt.eclipse.sdkbundle.win32_1.7.1.v200909221731/gwt-windows-1.7.1/gwt-user.jar!/com/google/gwt/event/dom/client/package-info.java'
+            [ERROR] Line 1: The type package-info is already defined
+         [ERROR] Errors in 'jar:file:/D:/Programming%20Software/Eclipse/JDT/eclipse-3.5%20-%20GWT/eclipse/plugins/com.google.gwt.eclipse.sdkbundle.win32_1.7.1.v200909221731/gwt-windows-1.7.1/gwt-user.jar!/com/google/gwt/user/datepicker/client/package-info.java'
+            [ERROR] Line 1: The type package-info is already defined
+      Removing units with errors
+      Removing invalidated units
+Rebinding com.google.gwt.i18n.client.impl.LocaleInfoImpl
+   Adding '1' new generated units
+      Validating newly compiled units
+         Removing units with errors
+         Removing units with errors
+Rebinding com.google.gwt.i18n.client.impl.CldrImpl
+   Invoking <generate-with class='com.google.gwt.i18n.rebind.LocalizableGenerator'/>
+      Checking for deprecated metadata
+Rebinding com.nanosim.client.NanoSim.Images
+   Invoking <generate-with class='com.google.gwt.user.rebind.ui.ImageBundleGenerator'/>
+      Adding image 'com/nanosim/client/defaultPhoto.jpg'
+      Adding image 'com/nanosim/client/drafts.gif'
+      Adding image 'com/nanosim/client/group.png'
+      Adding image 'com/nanosim/client/home.gif'
+      Adding image 'com/nanosim/client/inbox.gif'
+      Adding image 'com/nanosim/client/logo.png'
+      Adding image 'com/nanosim/client/mail.png'
+      Adding image 'com/nanosim/client/patent.png'
+      Adding image 'com/nanosim/client/proposal.png'
+      Adding image 'com/nanosim/client/research.png'
+      Adding image 'com/nanosim/client/sent.gif'
+      Adding image 'com/nanosim/client/transfer.png'
+      Adding image 'com/google/gwt/user/client/ui/treeClosed.gif'
+      Adding image 'com/nanosim/client/noimage.png'
+      Adding image 'com/google/gwt/user/client/ui/treeOpen.gif'
+      Writing generated resource 'E:\UVA Study\Fall 2009\Software Engg\Nanosim\NanoSim\NanoSim\.gwt\.tmp\shell\com.nanosim.NanoSim\55C0CA339810FE994915EF169667B757.cache.png'
+   Adding '1' new generated units
+      Validating newly compiled units
+         Removing units with errors
+         Removing units with errors
+Rebinding com.google.gwt.user.client.ui.TreeImages
+   Invoking <generate-with class='com.google.gwt.user.rebind.ui.ImageBundleGenerator'/>
+      Adding image 'com/google/gwt/user/client/ui/treeClosed.gif'
+      Adding image 'com/google/gwt/user/client/ui/treeLeaf.gif'
+      Adding image 'com/google/gwt/user/client/ui/treeOpen.gif'
+      Writing generated resource 'E:\UVA Study\Fall 2009\Software Engg\Nanosim\NanoSim\NanoSim\.gwt\.tmp\shell\com.nanosim.NanoSim\A7CD51F9E5A7DED5F85AD1D82BA67A8A.cache.png'
+   Adding '1' new generated units
+      Validating newly compiled units
+         Removing units with errors
+         Removing units with errors
+Rebinding com.nanosim.client.rpc.TransferService
+   Invoking <generate-with class='com.google.gwt.user.rebind.rpc.ServiceInterfaceProxyGenerator'/>
+      Generating client proxy for remote service interface 'com.nanosim.client.rpc.TransferService'
+         Scanning this RemoteService for deprecated annotations; Please see com.google.gwt.user.client.rpc.RemoteServiceRelativePath for more information.
+         Analyzing 'com.nanosim.client.rpc.TransferService' for serializable types
+            Analyzing methods:
+               public abstract com.nanosim.model.Budget insertBudget(com.nanosim.model.Budget b)
+                  Parameter: com.nanosim.model.Budget b
+                     com.nanosim.model.Budget is already a root type.
+         Writing generated resource 'E:\UVA Study\Fall 2009\Software Engg\Nanosim\NanoSim\NanoSim\.gwt\.tmp\shell\com.nanosim.NanoSim\com.nanosim.client.rpc.TransferService.rpc.log'
+         Writing generated resource 'E:\UVA Study\Fall 2009\Software Engg\Nanosim\NanoSim\NanoSim\.gwt\.tmp\shell\com.nanosim.NanoSim\EDBE0F769BF01C084BECB9E164DC832B.gwt.rpc'
+   Adding '8' new generated units
+      Validating newly compiled units
+         Removing units with errors
+         Removing units with errors

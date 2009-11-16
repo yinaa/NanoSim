@@ -12,10 +12,9 @@ public class PersonDAO {
 		ResultSet rs = null;
 		try {
 			rs = sqlHelper
-					.executeQuery(String
-							.format(
-									"select * from persons where name = '%s' and password='%s'",
-									userName, password));
+					.executeQuery(
+							"select * from persons where name = ? and password=PASSWORD(?)",
+							userName, password);
 			Person p = new Person();
 			if (rs.next()) {
 				p.setPersonId(rs.getLong("person_id"));

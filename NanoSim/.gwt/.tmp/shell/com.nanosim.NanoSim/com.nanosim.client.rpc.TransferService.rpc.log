@@ -1,0 +1,94 @@
+Reachable types computed on: Mon Nov 16 05:11:58 EST 2009
+com.google.gwt.i18n.client.impl.DateRecord
+   Serialization status
+      Instantiable
+   Path
+      'com.google.gwt.i18n.client.impl.DateRecord' is reachable as a subtype of type 'class java.util.Date'
+      'java.util.Date' is reachable from field 'time' of type 'com.nanosim.model.Budget'
+      'com.nanosim.model.Budget' is reachable as a subtype of type 'class com.nanosim.model.Budget'
+      Started from 'com.nanosim.model.Budget'
+
+com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException
+   Serialization status
+      Instantiable
+   Path
+      'com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException' is reachable as a subtype of type 'class com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException'
+      Started from 'com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException'
+
+com.nanosim.model.Budget
+   Serialization status
+      Instantiable
+   Path
+      'com.nanosim.model.Budget' is reachable as a subtype of type 'class com.nanosim.model.Budget'
+      Started from 'com.nanosim.model.Budget'
+
+java.lang.Exception
+   Serialization status
+      Field serializable
+   Path
+      'java.lang.Exception' is reachable as a supertype of type 'class java.lang.RuntimeException'
+      'java.lang.RuntimeException' is reachable as a supertype of type 'class com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException'
+      'com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException' is reachable as a subtype of type 'class com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException'
+      Started from 'com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException'
+
+java.lang.RuntimeException
+   Serialization status
+      Field serializable
+   Path
+      'java.lang.RuntimeException' is reachable as a supertype of type 'class com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException'
+      'com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException' is reachable as a subtype of type 'class com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException'
+      Started from 'com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException'
+
+java.lang.String
+   Serialization status
+      Instantiable
+   Path
+      'java.lang.String' is reachable as a subtype of type 'class java.lang.String'
+      Started from 'java.lang.String'
+
+java.lang.Throwable
+   Serialization status
+      Field serializable
+   Path
+      'java.lang.Throwable' is reachable as a supertype of type 'class java.lang.Exception'
+      'java.lang.Exception' is reachable as a supertype of type 'class java.lang.RuntimeException'
+      'java.lang.RuntimeException' is reachable as a supertype of type 'class com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException'
+      'com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException' is reachable as a subtype of type 'class com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException'
+      Started from 'com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException'
+
+java.sql.Date
+   Serialization status
+      Instantiable
+   Path
+      'java.sql.Date' is reachable as a subtype of type 'class java.util.Date'
+      'java.util.Date' is reachable from field 'time' of type 'com.nanosim.model.Budget'
+      'com.nanosim.model.Budget' is reachable as a subtype of type 'class com.nanosim.model.Budget'
+      Started from 'com.nanosim.model.Budget'
+
+java.sql.Time
+   Serialization status
+      Instantiable
+   Path
+      'java.sql.Time' is reachable as a subtype of type 'class java.util.Date'
+      'java.util.Date' is reachable from field 'time' of type 'com.nanosim.model.Budget'
+      'com.nanosim.model.Budget' is reachable as a subtype of type 'class com.nanosim.model.Budget'
+      Started from 'com.nanosim.model.Budget'
+
+java.sql.Timestamp
+   Serialization status
+      Instantiable
+   Path
+      'java.sql.Timestamp' is reachable as a subtype of type 'class java.util.Date'
+      'java.util.Date' is reachable from field 'time' of type 'com.nanosim.model.Budget'
+      'com.nanosim.model.Budget' is reachable as a subtype of type 'class com.nanosim.model.Budget'
+      Started from 'com.nanosim.model.Budget'
+
+java.util.Date
+   Serialization status
+      Instantiable
+   Path
+      'java.util.Date' is reachable as a subtype of type 'class java.util.Date'
+      'java.util.Date' is reachable from field 'time' of type 'com.nanosim.model.Budget'
+      'com.nanosim.model.Budget' is reachable as a subtype of type 'class com.nanosim.model.Budget'
+      Started from 'com.nanosim.model.Budget'
+

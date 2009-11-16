@@ -43,7 +43,7 @@ public class SqlHelperBase implements ISqlHelper {
 		if (conn == null || conn.isClosed())
 			open();
 		st = conn.prepareStatement(sql);
-		int i = 0;
+		int i = 1;
 		for (Object param : params) {
 			st.setObject(i, param);
 			i++;
@@ -57,7 +57,7 @@ public class SqlHelperBase implements ISqlHelper {
 		if (conn == null || !conn.isClosed())
 			open();
 		st = conn.prepareStatement(sql);
-		int i = 0;
+		int i = 1;
 		for (Object param : params) {
 			st.setObject(i, param);
 			i++;
@@ -76,14 +76,14 @@ public class SqlHelperBase implements ISqlHelper {
 
 		conn.setAutoCommit(false);
 		st = conn.prepareStatement(sql);
-		int i = 0;
+		int i = 1;
 		for (Object param : params) {
 			st.setObject(i, param);
 			i++;
 		}
 		st.executeUpdate();
 		st = conn.prepareStatement(sql);
-		i = 0;
+		i = 1;
 		for (Object id : ids) {
 			st.setObject(i, id);
 			i++;
@@ -91,7 +91,7 @@ public class SqlHelperBase implements ISqlHelper {
 		ResultSet rs = st.executeQuery(); // read id
 		Object retVal = null;
 		if (rs.next()) {
-			retVal = rs.getObject(0); //is index correct??
+			retVal = rs.getObject(0); // is index correct??
 		}
 		conn.commit();
 		conn.setAutoCommit(true);
