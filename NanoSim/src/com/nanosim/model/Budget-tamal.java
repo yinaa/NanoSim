@@ -3,7 +3,7 @@ package com.nanosim.model;
 import java.io.Serializable;
 import java.sql.Timestamp;
 
-public class Budget implements Serializable {
+public class Budget_Tamal implements Serializable {
 
 	/**
 	 * 
@@ -18,7 +18,7 @@ public class Budget implements Serializable {
 
 	private float total;
 
-	public Budget() {
+	public Budget_Tamal() {
 	}
 
 	public int getBudgetId() {
