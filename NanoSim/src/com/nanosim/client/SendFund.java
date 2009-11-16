@@ -41,8 +41,8 @@ public class SendFund extends Composite{
 		Budget b[] = new Budget[1];
 		b[0] = new Budget(now, credit );
 	    
-		AsyncCallback<Budget> callback = new AuthenticationHandler<Budget>();
-		rpc.insertBudget(now, credit, callback);
+//		AsyncCallback<Budget> callback = new AuthenticationHandler<Budget>();
+		//rpc.insertBudget(now, credit, callback);
 	}
 	
 }
