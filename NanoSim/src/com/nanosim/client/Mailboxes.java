@@ -59,7 +59,7 @@ public class Mailboxes extends Composite {
 		singleton = this;
 		tree = new Tree(images);
 		TreeItem root = new TreeItem(imageItemHTML(images.home(),
-				"user@nanosim.com"));
+				"user@NanoSim.com"));
 		tree.addItem(root);
 
 		addImageItem(root, "Inbox", images.inbox());

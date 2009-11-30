@@ -2,29 +2,18 @@ package com.nanosim.client;
 
 import java.util.Date;
 
-import com.google.gwt.event.dom.client.ClickEvent;
-import com.google.gwt.event.dom.client.ClickHandler;
 import com.google.gwt.user.client.rpc.AsyncCallback;
-import com.google.gwt.user.client.ui.Button;
 import com.google.gwt.user.client.ui.CheckBox;
 import com.google.gwt.user.client.ui.Composite;
-import com.google.gwt.user.client.ui.DockPanel;
-import com.google.gwt.user.client.ui.FlexTable;
-import com.google.gwt.user.client.ui.HasHorizontalAlignment;
-import com.google.gwt.user.client.ui.Label;
-import com.google.gwt.user.client.ui.PasswordTextBox;
 import com.google.gwt.user.client.ui.SimplePanel;
-import com.google.gwt.user.client.ui.TextBox;
 import com.google.gwt.user.client.ui.VerticalPanel;
-import com.google.gwt.user.client.ui.FlexTable.FlexCellFormatter;
 import com.nanosim.client.event.ILoginHandler;
 import com.nanosim.client.internal.EventHandlerCollection;
-import com.nanosim.client.rpc.LoginService;
-import com.nanosim.client.rpc.LoginServiceAsync;
+import com.nanosim.client.rpc.SigninService;
+import com.nanosim.client.rpc.SigninServiceAsync;
 import com.nanosim.client.rpc.TransferService;
 import com.nanosim.client.rpc.TransferServiceAsync;
 import com.nanosim.model.Budget;
-import com.nanosim.model.Person;
 
 /**
  * Composite that represents a collection of <code>Task</code> items.
@@ -41,7 +30,7 @@ public class SendFund extends Composite {
 		list.add(new CheckBox("See the status"));
 		list.add(new CheckBox("Send Fund"));
 		initWidget(panel);
-		setStyleName("nanosim-Research");
+		setStyleName("NanoSim-Research");
 
 	}*/
 	
@@ -69,7 +58,7 @@ public class SendFund extends Composite {
 	//----------------------------
 	private EventHandlerCollection<ILoginHandler> loginHandlerColl = new EventHandlerCollection<ILoginHandler>();
 
-	private final LoginServiceAsync loginService = LoginService.Util
+	private final SigninServiceAsync loginService = SigninService.Util
 			.getInstance();
 
 	public SendFund() {
@@ -79,7 +68,7 @@ public class SendFund extends Composite {
 		list.add(new CheckBox("See the status"));
 		list.add(new CheckBox("Send Fund"));
 		initWidget(panel);
-		setStyleName("nanosim-Research");
+		setStyleName("NanoSim-Research");
 		////////////////////////////////////////
 		/*DockPanel dock = new DockPanel();
 		dock.setSpacing(4);

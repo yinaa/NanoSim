@@ -14,13 +14,13 @@ public class MailItems {
 			"IBM", "NSF", "nanopost", "congress", "ASU", "MIT", "MIT", "NSF",
 			"NSF", "RICE", "wwic", "NSF", "IBM", "IBM", "nanopost" };
 
-	private static final String[] emails = new String[] { "darpa@nanosim.com",
-			"darpa@nanosim.com", "ibm@nanosim.com", "nsf@nanosim.com",
-			"nanopost@nanosim.com", "congress@nanosim.com", "asu@nanosim.com",
-			"mit@nanosim.com", "mit@nanosim.com", "nsf@nanosim.com",
-			"nsf@nanosim.com", "rice@nanosim.com", "wwic@nanosim.com",
-			"nsf@nanosim.com", "ibm@nanosim.com", "ibm@nanosim.com",
-			"nanopost@nanosim.com" };
+	private static final String[] emails = new String[] { "darpa@NanoSim.com",
+			"darpa@NanoSim.com", "ibm@NanoSim.com", "nsf@NanoSim.com",
+			"nanopost@NanoSim.com", "congress@NanoSim.com", "asu@NanoSim.com",
+			"mit@NanoSim.com", "mit@NanoSim.com", "nsf@NanoSim.com",
+			"nsf@NanoSim.com", "rice@NanoSim.com", "wwic@NanoSim.com",
+			"nsf@NanoSim.com", "ibm@NanoSim.com", "ibm@NanoSim.com",
+			"nanopost@NanoSim.com" };
 
 	private static final String[] subjects = new String[] {
 			"URGENT TRANSACTION",

@@ -67,7 +67,7 @@ public class MailDetail extends Composite {
   public void setItem(MailItem item) {
     subject.setHTML(item.subject);
     sender.setHTML("<b>From:</b>&nbsp;" + item.sender);
-    recipient.setHTML("<b>To:</b>&nbsp;user@nanosim.com");
+    recipient.setHTML("<b>To:</b>&nbsp;user@NanoSim.com");
     body.setHTML(item.body);
   }
 }

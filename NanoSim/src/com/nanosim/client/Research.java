@@ -17,7 +17,7 @@ public class Research extends Composite {
 		list.add(new CheckBox("Get groceries"));
 		list.add(new CheckBox("Walk the dog"));
 		initWidget(panel);
-		setStyleName("nanosim-Research");
+		setStyleName("NanoSim-Research");
 	}
 
 }

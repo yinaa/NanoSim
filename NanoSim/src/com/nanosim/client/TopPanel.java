@@ -52,14 +52,14 @@ public class TopPanel extends Composite implements ClickHandler {
 		aboutLink.addClickHandler(this);
 
 		initWidget(outer);
-		setStyleName("nanosim-TopPanel");
-		links.setStyleName("nanosim-TopPanelLinks");
+		setStyleName("NanoSim-TopPanel");
+		links.setStyleName("NanoSim-TopPanelLinks");
 	}
 
 	public void onClick(ClickEvent event) {
 		Object sender = event.getSource();
 		if (sender == signOutLink) {
-			NanoSim.getInstance().Logout();
+			Nanosim.getInstance().Logout();
 		} else if (sender == aboutLink) {
 			// When the 'About' item is selected, show the AboutDialog. Note
 			// that showing a dialog box does not block -- execution continues

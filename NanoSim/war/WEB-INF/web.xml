@@ -7,17 +7,17 @@
 
 	<!-- Default page to serve -->
 	<welcome-file-list>
-		<welcome-file>NanoSim.html</welcome-file>
+		<welcome-file>Nanosim.html</welcome-file>
 	</welcome-file-list>
 
 	<!-- Servlets -->
 	<servlet>
-		<servlet-name>LoginService</servlet-name>
-		<servlet-class>com.nanosim.server.LoginServiceImpl</servlet-class>
+		<servlet-name>SigninService</servlet-name>
+		<servlet-class>com.nanosim.server.SigninServiceImpl</servlet-class>
 	</servlet>
 	<servlet-mapping>
-		<servlet-name>LoginService</servlet-name>
-		<url-pattern>/nanosim/LoginService</url-pattern>
+		<servlet-name>SigninService</servlet-name>
+		<url-pattern>/nanosim/SigninService</url-pattern>
 	</servlet-mapping>
 	<servlet>
 		<servlet-name>PatentService</servlet-name>

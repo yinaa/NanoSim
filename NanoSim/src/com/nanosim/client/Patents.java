@@ -16,7 +16,7 @@ public class Patents extends Composite {
 		panel.setWidget(list);
 		list.add(new CheckBox("TODO toolbox"));
 		initWidget(panel);
-		setStyleName("nanosim-Research");
+		setStyleName("NanoSim-Research");
 	}
 
 }

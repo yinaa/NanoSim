@@ -62,23 +62,23 @@ public class Contacts extends Composite {
 			hp.add(inner);
 
 			add(hp);
-			setStyleName("nanosim-ContactPopup");
-			nameLabel.setStyleName("nanosim-ContactPopupName");
+			setStyleName("NanoSim-ContactPopup");
+			nameLabel.setStyleName("NanoSim-ContactPopupName");
 			emailLabel.setStyleName("nansim-ContactPopupEmail");
 		}
 	}
 
 	private Contact[] contacts = new Contact[] {
-			new Contact("Congress", "congress@nanosim.com"),
-			new Contact("NSF", "nsf@nanosim.com"),
-			new Contact("Darpa", "darpa@nanosim.com"),
-			new Contact("IBM", "ibm@nanosim.com"),
-			new Contact("MIT", "mit@nanosim.com"),
-			new Contact("NASA", "nasa@nanosim.com"),
-			new Contact("RICE", "rice@nanosim.com"),
-			new Contact("ASU", "asu@nanosim.com"),
-			new Contact("WWIC", "wwic@nanosim.com"),
-			new Contact("Nanopost", "nanopost@nanosim.com") };
+			new Contact("Congress", "congress@NanoSim.com"),
+			new Contact("NSF", "nsf@NanoSim.com"),
+			new Contact("Darpa", "darpa@NanoSim.com"),
+			new Contact("IBM", "ibm@NanoSim.com"),
+			new Contact("MIT", "mit@NanoSim.com"),
+			new Contact("NASA", "nasa@NanoSim.com"),
+			new Contact("RICE", "rice@NanoSim.com"),
+			new Contact("ASU", "asu@NanoSim.com"),
+			new Contact("WWIC", "wwic@NanoSim.com"),
+			new Contact("Nanopost", "nanopost@NanoSim.com") };
 
 	private VerticalPanel panel = new VerticalPanel();
 	private final Images images;
@@ -98,7 +98,7 @@ public class Contacts extends Composite {
 		panel.add(tree);
 
 		initWidget(outer);
-		setStyleName("nanosim-Contacts");
+		setStyleName("NanoSim-Contacts");
 	}
 
 	private void addContact(final Contact contact) {

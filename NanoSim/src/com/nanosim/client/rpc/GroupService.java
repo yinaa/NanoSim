@@ -6,6 +6,7 @@ import com.google.gwt.user.client.rpc.RemoteServiceRelativePath;
 import com.nanosim.model.Group;
 import com.nanosim.model.GroupType;
 
+
 @RemoteServiceRelativePath("GroupService")
 public interface GroupService extends RemoteService {
 	/**
